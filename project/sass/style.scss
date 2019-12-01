@@ -1,0 +1,112 @@
+*{
+		padding: 0;
+		margin: 0;
+		border: 0;
+ }
+body{
+		direction: rtl;
+		font-family: "IranN";
+		font-size: 1.2rem;
+	}
+#menu1{
+	background-color: rgba(0,0,0,0.9);
+	a{
+		color: #fff;
+		margin: 0 8px;
+		img{
+			width: 150px;
+			text-align: left;
+		}
+	}
+	
+	button{
+		text-align: right;
+		span{
+			color: #fff;
+		}
+	}
+	
+.dropdown-item:hover{
+	background-color: rgb(12,12,13);
+}
+}
+#slider{
+	width: 100%;
+	background-attachment: fixed;
+}
+#ahdafcontainer{
+	#ahdaf1{
+		background-color: #60aeb6;
+		text-align: center;
+		vertical-align: middle !important;
+		padding: 200px 50px 0;
+		#a5{
+			padding: 5px 20px;
+			border: 2px solid #000;
+			display: inline-block;
+			text-decoration: none;
+			color: #000;
+			border-radius: 10px;
+	}
+	#a5:hover{
+		border: none;
+	}
+	}
+	#ahdaf2{
+		background-image: url(../img/ahdaf.jpg);
+		background-size: cover;
+	}
+}
+#img2{
+	background-image: url(../img/img2.jpg);
+	background-position: 12% 12%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	#content2{
+		color: #fff;
+		background-color: rgba(10,10,10,0.68);
+		text-align: center;
+		padding: 100px 0 0;
+		h1,h3{
+			text-align: center;
+			margin: 30px;
+		}
+		.mahsulat{
+			margin: 20px 4px;
+		}
+		.mahsulat:hover{
+			box-shadow: 5px 5px 5px #60aeb6;
+		}
+		#a3{
+			color: #fff;
+			margin-top: 20px;
+			font-weight: bold;
+			padding: 5px 20px;
+			border: 2px solid #fff;
+			border-radius: 10px;
+			display: inline-block;
+			text-align: center;
+			text-decoration: none;
+		}
+		#a3:hover{
+			border: none;
+		}
+	}
+}
+@media (max-width: 768px){
+	.smheight{
+		height: 450px;
+	}
+	.smmargin{
+		margin-top: -150px;
+	}
+	.amargin{
+		margin: -20px;
+	}
+	.smimg{
+		display: none;
+	}
+}
+
+

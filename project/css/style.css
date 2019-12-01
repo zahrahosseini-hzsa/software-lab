@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+body {
+  direction: rtl;
+  font-family: "IranN";
+  font-size: 1.2rem; }
+
+#menu1 {
+  background-color: rgba(0, 0, 0, 0.9); }
+  #menu1 a {
+    color: #fff;
+    margin: 0 8px; }
+    #menu1 a img {
+      width: 150px;
+      text-align: left; }
+  #menu1 button {
+    text-align: right; }
+    #menu1 button span {
+      color: #fff; }
+  #menu1 .dropdown-item:hover {
+    background-color: #0c0c0d; }
+
+#slider {
+  width: 100%;
+  background-attachment: fixed; }
+
+#ahdafcontainer #ahdaf1 {
+  background-color: #60aeb6;
+  text-align: center;
+  vertical-align: middle !important;
+  padding: 200px 50px 0; }
+  #ahdafcontainer #ahdaf1 #a5 {
+    padding: 5px 20px;
+    border: 2px solid #000;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px; }
+  #ahdafcontainer #ahdaf1 #a5:hover {
+    border: none; }
+#ahdafcontainer #ahdaf2 {
+  background-image: url(../img/ahdaf.jpg);
+  background-size: cover; }
+
+#img2 {
+  background-image: url(../img/img2.jpg);
+  background-position: 12% 12%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  #img2 #content2 {
+    color: #fff;
+    background-color: rgba(10, 10, 10, 0.68);
+    text-align: center;
+    padding: 100px 0 0; }
+    #img2 #content2 h1, #img2 #content2 h3 {
+      text-align: center;
+      margin: 30px; }
+    #img2 #content2 .mahsulat {
+      margin: 20px 4px; }
+    #img2 #content2 .mahsulat:hover {
+      box-shadow: 5px 5px 5px #60aeb6; }
+    #img2 #content2 #a3 {
+      color: #fff;
+      margin-top: 20px;
+      font-weight: bold;
+      padding: 5px 20px;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      display: inline-block;
+      text-align: center;
+      text-decoration: none; }
+    #img2 #content2 #a3:hover {
+      border: none; }
+
+@media (max-width: 768px) {
+  .smheight {
+    height: 450px; }
+
+  .smmargin {
+    margin-top: -150px; }
+
+  .amargin {
+    margin: -20px; }
+
+  .smimg {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
