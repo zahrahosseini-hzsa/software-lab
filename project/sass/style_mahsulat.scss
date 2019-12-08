@@ -55,20 +55,28 @@ body{
 		font-size: 20pt !important;
 	}
 }
-.mahsulat{
-	background-color: rgb(12,12,13);
-	padding: 100px;
-	a{
-		text-decoration: none;
-		color: #fff;
+#part2{
+	background-color: rgb(18,18,19);
+	height: 930px;
+	padding: 100px 5% 170px 6%;
 	}
-	h1{
-		color: #fff;
-		padding: 110px;
-	}
-	.wideimg{
-		height: 200px;
-	}
+
+.h2title{
+	line-height: 25px;
+	font-size: 22pt;
+	color: rgba(240,218,190,1.00);
+	text-align: center;
+}
+.hr{
+	margin-left: 47.6%;
+}
+
+.part2img{
+	display: inline-block;
+	width: 25%;
+	height: 250px;
+	margin: 25px 3.5%;
+	
 }
 #footer{
 	height: 140px;

@@ -1,1 +1,115 @@
-*{padding:0;margin:0;border:0}body{direction:rtl;font-family:"IranN";font-size:1.2rem}#menu1{background-color:#69cdcb}#menu1 a{color:#fff;margin:0 8px}#menu1 a img{width:150px;text-align:left}#menu1 button{text-align:right}#menu1 button span{color:#fff}.dropdown-item:hover{background-color:#0c0c0d}#x{position:absolute;left:10px}#part1{background-color:#69cdcb;height:400px;margin-top:90px}.h3{color:#fff;text-align:center;font-size:40pt;margin:100px 49% 30px 0px;float:right}.h4{color:#fff;font-size:12pt;margin:0px 47% 30px 0px;float:right}.h4a{color:#8a6606 !important;font-size:20pt !important}#part2{background-color:#121213;height:auto}#part2right{width:45%;height:500px !important;display:inline-block;background-color:#0c0c0d;float:right;color:#f0dabe;padding:50px;text-align:center}.h3title{line-height:190px;font-size:24pt !important}.form{padding:80px}.lable{margin-left:500px;color:#f0dabe;margin-bottom:20px}.space{margin-left:530px !important}.inputs{margin-left:228px;color:#f0dabe;margin-bottom:20px;width:273px}.submit{width:80px;height:42px;line-height:42px;font-size:20pt}#footer{height:140px;background-color:#0c0c0d}.fpart{height:100px;float:right;margin-top:20px;background-color:#121213;color:#f0dabe}.footerp{float:right;margin-right:90px;margin-top:40px}.icon{float:left;margin:25px 50px;color:aliceblue}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+body {
+  direction: rtl;
+  font-family: "IranN";
+  font-size: 1.2rem; }
+
+#menu1 {
+  background-color: #69cdcb; }
+  #menu1 a {
+    color: #fff;
+    margin: 0 8px; }
+    #menu1 a img {
+      width: 150px;
+      text-align: left; }
+  #menu1 button {
+    text-align: right; }
+    #menu1 button span {
+      color: #fff; }
+
+.dropdown-item:hover {
+  background-color: #0c0c0d; }
+
+#x {
+  position: absolute;
+  left: 10px; }
+
+#part1 {
+  background-color: #69cdcb;
+  height: 400px;
+  margin-top: 90px; }
+
+.h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 40pt;
+  margin: 100px 49% 30px 0px;
+  float: right; }
+
+.h4 {
+  color: #fff;
+  font-size: 12pt;
+  margin: 0px 47% 30px 0px;
+  float: right; }
+
+.h4a {
+  color: #8a6606 !important;
+  font-size: 20pt !important; }
+
+#part2 {
+  background-color: #121213;
+  height: auto; }
+
+#part2right {
+  width: 45%;
+  height: 500px !important;
+  display: inline-block;
+  background-color: #0c0c0d;
+  float: right;
+  color: #f0dabe;
+  padding: 50px;
+  text-align: center; }
+
+.h3title {
+  line-height: 190px;
+  font-size: 24pt !important; }
+
+.form {
+  padding: 80px; }
+
+.lable {
+  margin-left: 500px;
+  color: #f0dabe;
+  margin-bottom: 20px; }
+
+.space {
+  margin-left: 530px !important; }
+
+.inputs {
+  margin-left: 228px;
+  color: #f0dabe;
+  margin-bottom: 20px;
+  width: 273px; }
+
+.submit {
+  width: 80px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 20pt; }
+
+#footer {
+  height: 140px;
+  background-color: #0c0c0d; }
+
+.fpart {
+  height: 100px;
+  float: right;
+  margin-top: 20px;
+  background-color: #121213;
+  color: #f0dabe; }
+
+.footerp {
+  float: right;
+  margin-right: 90px;
+  margin-top: 40px; }
+
+.icon {
+  float: left;
+  margin: 25px 50px;
+  color: aliceblue; }
+
+/*# sourceMappingURL=style_contactus.css.map */

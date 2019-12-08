@@ -1,1 +1,140 @@
-*{padding:0;margin:0;border:0}body{direction:rtl;font-family:"IranN";font-size:1.2rem}#menu1{background-color:#69cdcb}#menu1 a{color:#fff;margin:0 8px}#menu1 a img{width:150px;text-align:left}#menu1 button{text-align:right}#menu1 button span{color:#fff}.dropdown-item:hover{background-color:#0c0c0d}#x{position:absolute;left:10px}#part1{background-color:#69cdcb;height:400px;margin-top:90px}.h3{color:#fff;text-align:center;font-size:40pt;margin:100px 49% 30px 0px;float:right}.h4{color:#fff;font-size:12pt;margin:0px 47% 30px 0px;float:right}.h4a{color:#8a6606 !important;font-size:20pt !important}.part1{background-color:#0c0c0d;padding:100px 0px;height:auto}#sec1{width:52%;height:1000px !important;padding-right:7%;padding-left:1%;text-align:justify;color:#f0dabe;float:right}.psec1{line-height:40px}.h3sec1{text-align:center;font-size:25pt;line-height:70px}#sec2{width:40%;float:left;padding-top:100px;padding-right:5%}#article{width:400;height:400px;position:absolute;background-color:aliceblue}#article img{position:relative}.ft-prev{background-color:rgba(128,128,128,0.5);border-color:transparent #0072BC transparent transparent;border-radius:0 30px 30px 0;border-style:solid;border-width:30px;height:0;overflow:hidden;width:0}.ft-next{background-color:rgba(128,128,128,0.5);border-color:transparent transparent transparent #0072BC;border-radius:30px 0 0 30px;border-style:solid;border-width:30px;overflow:hidden;width:0;height:0}.ft-prev:hover{border-right-color:#00548b}.ft-next:hover{border-left-color:#00548b}.emptysec{clear:both}#footer{height:140px;background-color:#0c0c0d}.fpart{height:100px;float:right;margin-top:20px;background-color:#121213;color:#f0dabe}.footerp{float:right;margin-right:90px;margin-top:40px}.icon{float:left;margin:25px 50px;color:aliceblue}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+body {
+  direction: rtl;
+  font-family: "IranN";
+  font-size: 1.2rem; }
+
+#menu1 {
+  background-color: #69cdcb; }
+  #menu1 a {
+    color: #fff;
+    margin: 0 8px; }
+    #menu1 a img {
+      width: 150px;
+      text-align: left; }
+  #menu1 button {
+    text-align: right; }
+    #menu1 button span {
+      color: #fff; }
+
+.dropdown-item:hover {
+  background-color: #0c0c0d; }
+
+#x {
+  position: absolute;
+  left: 10px; }
+
+#part1 {
+  background-color: #69cdcb;
+  height: 400px;
+  margin-top: 90px; }
+
+.h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 40pt;
+  margin: 100px 49% 30px 0px;
+  float: right; }
+
+.h4 {
+  color: #fff;
+  font-size: 12pt;
+  margin: 0px 47% 30px 0px;
+  float: right; }
+
+.h4a {
+  color: #8a6606 !important;
+  font-size: 20pt !important; }
+
+.part1 {
+  background-color: #0c0c0d;
+  padding: 100px 0px;
+  height: auto; }
+
+#sec1 {
+  width: 52%;
+  height: 1000px !important;
+  padding-right: 7%;
+  padding-left: 1%;
+  text-align: justify;
+  color: #f0dabe;
+  float: right; }
+
+.psec1 {
+  line-height: 40px; }
+
+.h3sec1 {
+  text-align: center;
+  font-size: 25pt;
+  line-height: 70px; }
+
+#sec2 {
+  width: 40%;
+  float: left;
+  padding-top: 100px;
+  padding-right: 5%; }
+
+#article {
+  width: 400;
+  height: 400px;
+  position: absolute;
+  background-color: aliceblue; }
+
+#article img {
+  position: relative; }
+
+.ft-prev {
+  background-color: rgba(128, 128, 128, 0.5);
+  border-color: transparent #0072BC transparent transparent;
+  border-radius: 0 30px 30px 0;
+  border-style: solid;
+  border-width: 30px;
+  height: 0;
+  overflow: hidden;
+  width: 0; }
+
+.ft-next {
+  background-color: rgba(128, 128, 128, 0.5);
+  border-color: transparent transparent transparent #0072BC;
+  border-radius: 30px 0 0 30px;
+  border-style: solid;
+  border-width: 30px;
+  overflow: hidden;
+  width: 0;
+  height: 0; }
+
+.ft-prev:hover {
+  border-right-color: #00548b; }
+
+.ft-next:hover {
+  border-left-color: #00548b; }
+
+.emptysec {
+  clear: both; }
+
+#footer {
+  height: 140px;
+  background-color: #0c0c0d; }
+
+.fpart {
+  height: 100px;
+  float: right;
+  margin-top: 20px;
+  background-color: #121213;
+  color: #f0dabe; }
+
+.footerp {
+  float: right;
+  margin-right: 90px;
+  margin-top: 40px; }
+
+.icon {
+  float: left;
+  margin: 25px 50px;
+  color: aliceblue; }
+
+/*# sourceMappingURL=style_aboutus_1.css.map */
