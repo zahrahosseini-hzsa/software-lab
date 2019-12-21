@@ -40,35 +40,42 @@ body{
 	height: 400px;
 	margin-top: 90px;
 	
+	span{
+		color: rgb(138,102,6) !important;
+		font-size: 1.3em;
 	}
-.h2title{
-	color:#fff;
-	font-size: 28pt;
-	margin:100px 44% 30px 0px;
-	float: right;
+	
+	.h2title{
+		color:#fff;
+		margin:100px 44% 30px 0px;
+		float: right;
+	}
 }
 #part2{
-	background-color: rgb(18,18,19);
-	height: auto;
-	padding: 100px 5% 170px 6%;
-	
-	form{
-		text-align: right;
-		color: #fff;
-		label{
+	.side-menu{
+		background-color:rgba(12,12,13,1.00);
+		text-align: center;
+		padding: 30px 0 0;
+		a{
+			width: 200px;
 			color: #fff;
-			margin: 15px 0 5px;
+			margin: 50px auto 0;
+			padding: 15px;
+			font-size: 20px;
+			background-color: transparent;
+			border: 1px solid #fff;
+			display: inline-block;
 		}
-		.btn{
-			height: 50px;
-			line-height: 50px;
-			padding: 0 25px;
-			font-size: 1.3rem;
-			font-weight: bold;
-			margin: 5px auto;
+		a:hover{
+			transform: scale(1.2);
 		}
 	}
+	.content{
+		background-color: rgb(18,18,19);
+		height: auto;
+		padding: 100px 5% 170px 6%;
 	}
+}
 #footer{
 	height: 140px;
 	background-color:rgb(12,12,13);

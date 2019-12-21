@@ -1,1 +1,172 @@
-*{padding:0;margin:0;border:0}body{direction:rtl;font-family:"IranN";font-size:1.2rem}#menu1{background-color:rgba(0,0,0,0.9)}#menu1 a{color:#fff;margin:0 8px}#menu1 a img{width:150px;text-align:left}#menu1 button{text-align:right}#menu1 button span{color:#fff}#menu1 .dropdown-item:hover{background-color:#0c0c0d}#x{position:absolute;left:10px}#slider{width:100%;background-attachment:fixed}#tarikhche{background-image:url(../img/tarikhche.jpg);background-size:cover;padding:50px 50px 50px 100px;text-align:center}#tarikhche #a2{color:#000;border:2px solid #000;border-radius:10px;padding:5px 20px;font-weight:bold;margin:20px;display:inline-block;text-align:center;text-decoration:none}#tarikhche #a2:hover{border:none}#tarikhche h1{margin:50px}#tarikhche .tarikhche1{margin:40px 20px}#img2{background-image:url(../img/img2.jpg);background-position:12% 12%;background-repeat:no-repeat;background-attachment:fixed;background-size:cover}#img2 #content2{color:#fff;background-color:rgba(10,10,10,0.68);text-align:center;padding:100px 0 0}#img2 #content2 h1,#img2 #content2 h3{text-align:center;margin:30px}#img2 #content2 .mahsulat{margin:20px 4px}#img2 #content2 .mahsulat:hover{box-shadow:5px 5px 5px #60aeb6}#img2 #content2 #a3{color:#fff;margin-top:20px;font-weight:bold;padding:5px 20px;border:2px solid #fff;border-radius:10px;display:inline-block;text-align:center;text-decoration:none}#img2 #content2 #a3:hover{border:none}#ahdafcontainer #ahdaf1{background-color:#60aeb6;text-align:center;vertical-align:middle !important;padding:200px 50px 0}#ahdafcontainer #ahdaf1 #a5{padding:5px 20px;border:2px solid #000;display:inline-block;text-decoration:none;color:#000;border-radius:10px}#ahdafcontainer #ahdaf1 #a5:hover{border:none}#ahdafcontainer #ahdaf2{background-image:url(../img/ahdaf.jpg);background-size:cover}#akhbar{background-color:#121213;padding:100px;text-align:center;color:#fff}#akhbar p,#akhbar h1{margin:20px}#akhbar a{color:#fff;text-decoration:none}#akhbar .akhbarimg{width:100px;border-radius:50%}#akhbar .media{display:inline-block}#container{background-image:url(../img/tamas.jpg);background-size:cover;background-attachment:fixed}#container #tamas{text-align:right;padding:100px}#container #tamas h3{text-align:right;margin:40px 0}#container #a4{padding:5px 20px;border:2px solid #000;border-radius:10px;color:#000;text-decoration:none;display:inline-block}#container #a4:hover{border:none}#footer{height:140px;background-color:#0c0c0d}#footer .fpart{height:100px;float:right;margin-top:20px;background-color:#121213;color:#f0dabe}#footer .footerp{float:right;margin-right:90px;margin-top:40px}#footer .icon{float:left;margin:25px 50px;color:aliceblue}@media (max-width: 768px){.smheight{height:450px}.smmargin{margin-top:-150px}.amargin{margin:-20px}.smimg{display:none}}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+body {
+  direction: rtl;
+  font-family: "IranN";
+  font-size: 1.2rem; }
+
+#menu1 {
+  background-color: rgba(0, 0, 0, 0.9); }
+  #menu1 a {
+    color: #fff;
+    margin: 0 8px; }
+    #menu1 a img {
+      width: 150px;
+      text-align: left; }
+  #menu1 button {
+    text-align: right; }
+    #menu1 button span {
+      color: #fff; }
+  #menu1 .dropdown-item:hover {
+    background-color: #0c0c0d; }
+
+#x {
+  position: absolute;
+  left: 10px; }
+
+#slider {
+  width: 100%;
+  background-attachment: fixed; }
+
+#tarikhche {
+  background-image: url(../img/tarikhche.jpg);
+  background-size: cover;
+  padding: 50px 50px 50px 100px;
+  text-align: center; }
+  #tarikhche #a2 {
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-weight: bold;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none; }
+  #tarikhche #a2:hover {
+    border: none; }
+  #tarikhche h1 {
+    margin: 50px; }
+  #tarikhche .tarikhche1 {
+    margin: 40px 20px; }
+
+#img2 {
+  background-image: url(../img/img2.jpg);
+  background-position: 12% 12%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  #img2 #content2 {
+    color: #fff;
+    background-color: rgba(10, 10, 10, 0.68);
+    text-align: center;
+    padding: 100px 0 0; }
+    #img2 #content2 h1, #img2 #content2 h3 {
+      text-align: center;
+      margin: 30px; }
+    #img2 #content2 .mahsulat {
+      margin: 20px 4px; }
+    #img2 #content2 .mahsulat:hover {
+      box-shadow: 5px 5px 5px #60aeb6; }
+    #img2 #content2 #a3 {
+      color: #fff;
+      margin-top: 20px;
+      font-weight: bold;
+      padding: 5px 20px;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      display: inline-block;
+      text-align: center;
+      text-decoration: none; }
+    #img2 #content2 #a3:hover {
+      border: none; }
+
+#ahdafcontainer #ahdaf1 {
+  background-color: #60aeb6;
+  text-align: center;
+  vertical-align: middle !important;
+  padding: 200px 50px 0; }
+  #ahdafcontainer #ahdaf1 #a5 {
+    padding: 5px 20px;
+    border: 2px solid #000;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px; }
+  #ahdafcontainer #ahdaf1 #a5:hover {
+    border: none; }
+#ahdafcontainer #ahdaf2 {
+  background-image: url(../img/ahdaf.jpg);
+  background-size: cover; }
+
+#akhbar {
+  background-color: #121213;
+  padding: 100px;
+  text-align: center;
+  color: #fff; }
+  #akhbar p, #akhbar h1 {
+    margin: 20px; }
+  #akhbar a {
+    color: #fff;
+    text-decoration: none; }
+  #akhbar .akhbarimg {
+    width: 100px;
+    border-radius: 50%; }
+  #akhbar .media {
+    display: inline-block; }
+
+#container {
+  background-image: url(../img/tamas.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+  #container #tamas {
+    text-align: right;
+    padding: 100px; }
+  #container #tamas h3 {
+    text-align: right;
+    margin: 40px 0; }
+  #container #a4 {
+    padding: 5px 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    color: #000;
+    text-decoration: none;
+    display: inline-block; }
+  #container #a4:hover {
+    border: none; }
+
+#footer {
+  height: 140px;
+  background-color: #0c0c0d; }
+  #footer .fpart {
+    height: 100px;
+    float: right;
+    margin-top: 20px;
+    background-color: #121213;
+    color: #f0dabe; }
+  #footer .footerp {
+    float: right;
+    margin-right: 90px;
+    margin-top: 40px; }
+  #footer .icon {
+    float: left;
+    margin: 25px 50px;
+    color: aliceblue; }
+
+@media (max-width: 768px) {
+  .smheight {
+    height: 450px; }
+
+  .smmargin {
+    margin-top: -150px; }
+
+  .amargin {
+    margin: -20px; }
+
+  .smimg {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */

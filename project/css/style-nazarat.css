@@ -6,7 +6,8 @@
 body {
   direction: rtl;
   font-family: "IranN";
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  height: auto !important; }
 
 #menu1 {
   background-color: #69cdcb; }
@@ -32,43 +33,33 @@ body {
   background-color: #69cdcb;
   height: 400px;
   margin-top: 90px; }
+  #part1 span {
+    color: #8a6606 !important;
+    font-size: 1.3em; }
+  #part1 .h2title {
+    color: #fff;
+    margin: 100px 44% 30px 0px;
+    float: right; }
 
-.h3 {
-  color: #fff;
+#part2 .side-menu {
+  background-color: #0c0c0d;
   text-align: center;
-  font-size: 40pt;
-  margin: 100px 49% 30px 0px;
-  float: right; }
-
-.h4 {
-  color: #fff;
-  font-size: 12pt;
-  margin: 0px 47% 30px 0px;
-  float: right; }
-
-.h4a {
-  color: #8a6606 !important;
-  font-size: 20pt !important; }
-
-#part2 {
+  padding: 30px 0 0; }
+  #part2 .side-menu a {
+    width: 200px;
+    color: #fff;
+    margin: 50px auto 0;
+    padding: 15px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    display: inline-block; }
+  #part2 .side-menu a:hover {
+    transform: scale(1.2); }
+#part2 .content {
   background-color: #121213;
-  height: 930px;
+  height: auto;
   padding: 100px 5% 170px 6%; }
-
-.h2title {
-  line-height: 25px;
-  font-size: 22pt;
-  color: #f0dabe;
-  text-align: center; }
-
-.hr {
-  margin-left: 47.6%; }
-
-.part2img {
-  display: inline-block;
-  width: 25%;
-  height: 250px;
-  margin: 25px 3.5%; }
 
 #footer {
   height: 140px;
@@ -91,4 +82,4 @@ body {
   margin: 25px 50px;
   color: aliceblue; }
 
-/*# sourceMappingURL=style_dastband.css.map */
+/*# sourceMappingURL=style-nazarat.css.map */

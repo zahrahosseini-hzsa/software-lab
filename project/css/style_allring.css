@@ -52,10 +52,11 @@ body {
 
 #part2 {
   background-color: #121213;
-  height: 700px; }
+  padding-bottom: 20px; }
+  #part2 .nazar {
+    margin: 0 50px 10px; }
 
 #part2right {
-  height: 500px !important;
   text-align: center;
   width: 46%;
   padding-right: 2%;
@@ -75,15 +76,16 @@ body {
 .button {
   width: 100px;
   height: 50px;
-  margin-right: 20px;
+  margin: 10px;
   color: #f0dabe;
   border: 2px solid #f0dabe;
   background-color: #121213; }
 
 #part2left {
-  height: 500px !important;
   padding: 100px 2% 0px 8%;
   float: left; }
+  #part2left .img-size {
+    width: 300px; }
 
 .z_img {
   display: inline-block;
