@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+body {
+  direction: rtl;
+  font-family: "IranN";
+  font-size: 1.2rem;
+  height: auto !important; }
+
+#menu1 {
+  background-color: #69cdcb; }
+  #menu1 a {
+    color: #fff;
+    margin: 0 8px; }
+    #menu1 a img {
+      width: 150px;
+      text-align: left; }
+  #menu1 button {
+    text-align: right; }
+    #menu1 button span {
+      color: #fff; }
+
+.dropdown-item:hover {
+  background-color: #0c0c0d; }
+
+#x {
+  position: absolute;
+  left: 10px; }
+
+#part1 {
+  background-color: #69cdcb;
+  height: 400px;
+  margin-top: 90px; }
+  #part1 span {
+    color: #8a6606 !important;
+    font-size: 1.3em; }
+  #part1 .h2title {
+    color: #fff;
+    margin: 100px 44% 30px 0px;
+    float: right; }
+
+#part2 .side-menu {
+  background-color: #0c0c0d;
+  text-align: center;
+  padding: 30px 0 0; }
+  #part2 .side-menu a {
+    width: 200px;
+    color: #fff;
+    margin: 50px auto 0;
+    padding: 15px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    display: inline-block; }
+  #part2 .side-menu a:hover {
+    transform: scale(1.2); }
+#part2 .content {
+  background-color: #121213;
+  height: auto;
+  padding: 100px 5% 170px 6%; }
+  #part2 .content form {
+    text-align: right;
+    color: #fff; }
+    #part2 .content form label {
+      color: #fff;
+      margin: 15px 0 5px; }
+
+#footer {
+  height: 140px;
+  background-color: #0c0c0d; }
+
+.fpart {
+  height: 100px;
+  float: right;
+  margin-top: 20px;
+  background-color: #121213;
+  color: #f0dabe; }
+
+.footerp {
+  float: right;
+  margin-right: 90px;
+  margin-top: 40px; }
+
+.icon {
+  float: left;
+  margin: 25px 50px;
+  color: aliceblue; }
+
+/*# sourceMappingURL=style-etelaat-shakhsi.css.map */

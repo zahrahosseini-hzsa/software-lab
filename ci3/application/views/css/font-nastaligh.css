@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "IranN";
+  src: url("../fonts/IranNastaliq.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/IranNastaliq.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/IranNastaliq.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/IranNastaliq.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/IranNastaliq.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/IranNastaliq.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/IranNastaliq.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+

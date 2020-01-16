@@ -1,0 +1,111 @@
+*{
+		padding: 0;
+		margin: 0;
+		border: 0;
+ }
+
+body{
+		direction: rtl;
+		font-family: "IranN";
+		font-size: 1.2rem;
+		height: auto !important;
+	}
+#menu1{
+	background-color: rgba(105,205,203,1.00);
+	a{
+		color: #fff;
+		margin: 0 8px;
+		img{
+			width: 150px;
+			text-align: left;
+			}
+	}
+	
+	button{
+		text-align: right;
+		span{
+			color: #fff;
+			}
+			}
+		}
+.dropdown-item:hover{
+	background-color: rgb(12,12,13);
+}
+#x{
+	position: absolute;
+	left: 10px;
+}
+#part1{
+	background-color: rgba(105,205,203,1.00);
+	height: 400px;
+	margin-top: 90px;
+	
+	span{
+		color: rgb(138,102,6) !important;
+		font-size: 1.3em;
+	}
+	
+	.h2title{
+		color:#fff;
+		margin:100px 44% 30px 0px;
+		float: right;
+	}
+}
+#part2{
+	.side-menu{
+		background-color:rgba(12,12,13,1.00);
+		text-align: center;
+		padding: 30px 0 0;
+		a{
+			width: 200px;
+			color: #fff;
+			margin: 50px auto 0;
+			padding: 15px;
+			font-size: 20px;
+			background-color: transparent;
+			border: 1px solid #fff;
+			display: inline-block;
+		}
+		a:hover{
+			transform: scale(1.2);
+		}
+	}
+	.content{
+		background-color: rgb(18,18,19);
+		height: auto;
+		padding: 100px 5% 170px 6%;
+	
+		form{
+			text-align: right;
+			color: #fff;
+			label{
+				color: #fff;
+				margin: 15px 0 5px;
+			}
+		}
+	}
+}
+#footer{
+	height: 140px;
+	background-color:rgb(12,12,13);
+}
+
+.fpart{
+	height: 100px;
+	float: right;
+	margin-top: 20px;
+	background-color:  rgb(18,18,19);
+	color:  rgba(240,218,190,1.00);
+}
+
+.footerp{
+	float: right;
+	margin-right: 90px;
+	margin-top: 40px;
+}
+.icon{
+	float: left;
+	margin:25px 50px;
+	color: aliceblue;
+	
+}
