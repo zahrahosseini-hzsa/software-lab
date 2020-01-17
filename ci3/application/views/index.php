@@ -2,38 +2,22 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>اهداف وخدمات فروشگاه</title>
-	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap-reboot.css">
+<title>جواهری عطایی</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap.css">
+<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap-reboot.css">
+<link rel="stylesheet" href="<?php echo base_url();?>css/style.css">
+<link rel="stylesheet" href="<?php echo base_url();?>css/font-nastaligh.css">
 	
-	<link rel="stylesheet" href="<?php echo base_url();?>css/style_aboutus_1.css">
-	<link rel="stylesheet" href="<?php echo base_url();?>css/font-nastaligh.css">
-	
-	<script src="<?php echo base_url();?>js/jquery-min.js"></script>
-	<script src="<?php echo base_url();?>js/jquery-3.4.1.js"></script>
-	<script src="<?php echo base_url();?>js/popper.min.js"></script>
-	<script src="<?php echo base_url();?>js/bootstrap.js"></script>
-	<script src="<?php echo base_url();?>js/script.js"></script>
-	
-	<script src="<?php echo base_url();?>js/jqFancyTransitions.1.8.min.js"></script>
-	
-    	<script>
-		$(document).ready(function(e) {
-            $("#gallary").jqFancyTransitions({
-				effect:"wave",
-				width:400,
-				height:400,
-				navigation:true
-					
-			});
-        });
-	</script>
-	
-	
+<script src="<?php echo base_url();?>js/jquery-3.4.1.js"></script>
+<script src="<?php echo base_url();?>js/popper.min.js"></script>
+<script src="<?php echo base_url();?>js/bootstrap.js"></script>
+<script src="<?php echo base_url();?>js/script.js"></script>
 </head>
 
-<body data-spy="scroll" data-target="#menu1">
-
+<body>
+	<div id="top"></div>
+	
 	<div class="container-fluid">
 		<div class="row">
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="menu1">
@@ -44,7 +28,7 @@
 				<div id="menu" class="collapse navbar-collapse col-lg-8 g">
 					<ul class="navbar navbar-nav">
 						<li class="nav-item">
-							<a href="index.php/index_controller/index/" class="nav-link active">صفحه اصلی</a>
+							<a href="<?php echo base_url();?>index.php/index_controller/index/" class="nav-link active">صفحه اصلی</a>
 						</li>
 						<li class="nav-item dropdown">
 			  				<a href="<?php echo base_url();?>index.php/mahsulat_controller/mahsulat/" class="nav-link      dropdown-toggle" data-toggle="dropdown">محصولات</a>
@@ -77,8 +61,8 @@
 					</ul>
 				</div>
 				
-				<a href="#" class="navbar-brand col-lg-4">
-					<img src="<?php echo base_url();?>/img/logo.png" alt="">
+				<a href="<?php echo base_url();?>index.php/index_controller/index/" class="navbar-brand col-lg-4">
+					<img src="<?php echo base_url();?>/img/logo.png" alt="logo">
 				</a>
 			</nav>
 		</div>
@@ -139,26 +123,26 @@
 			<div class="col-lg-6">
 				<h1 id="h1">جواهری  به قلم تاریخ</h1>
 				<p id="p1">مرحوم حاج محمدعلی  ( عطاالله)  موسس و بنیان گذار جواهری   فعالیت حرفه ای خود را در اواخرصده  یک هزارودویست شمسی آغاز کرد، ایشان  علوم صنعت گری را از مرحوم پدر(حاج حسین )   و همچینین هنر قلم زنی و ساخت ظروف  نقره را  از اساتید وقت فرا گرفتند، انگیزه به تولید و فروش با گستره خدمات بیشتر،  وی را بر آن داشت تا پس ازفراگیری دانش کسب وکار و مهارت های لازم، زادگاه خویش اصفهان را ترک کرده و راهی…</p>
-				<a href="pages/tarikhche.html" id="a2">ادامه مطلب</a>
+				<a href="<?php echo base_url();?>index.php/aboutus_2_controller/aboutus_2/" id="a2">ادامه مطلب</a>
 				<br>
-				<a href="pages/tarikhche1.html" target="_blank"><img src="<?php echo base_url();?>/img/d1.jpg" alt="" class="tarikhche1 col-lg-2 col-sm-5 w-100"></a>
-				<a href="pages/tarikhche2.html" target="_blank"><img src="<?php echo base_url();?>/img/d3.jpg" alt="" class="tarikhche1 col-lg-2 col-sm-5 w-100"></a>
-				<a href="pages/tarikhche3.html" target="_blank"><img src="<?php echo base_url();?>/img/d4.jpg" alt="" class="tarikhche1 col-lg-2 col-sm-5 w-100"></a>
-				<a href="pages/tarikhche4.html" target="_blank"><img src="<?php echo base_url();?>/img/d5.jpg" alt="" class="tarikhche1 col-lg-2 col-sm-5 w-100"></a>
+				<a href="<?php echo base_url();?>index.php/tarikhche1_controller/tarikhche1/" target="_blank"><img src="<?php echo base_url();?>/img/d1.jpg" alt="" class="tarikhche1 col-lg-2 col-sm-5 w-100"></a>
+				<a href="<?php echo base_url();?>index.php/tarikhche2_controller/tarikhche2/" target="_blank"><img src="<?php echo base_url();?>/img/d3.jpg" alt="" class="tarikhche1 col-lg-2 col-sm-5 w-100"></a>
+				<a href="<?php echo base_url();?>index.php/tarikhche3_controller/tarikhche3/" target="_blank"><img src="<?php echo base_url();?>/img/d4.jpg" alt="" class="tarikhche1 col-lg-2 col-sm-5 w-100"></a>
+				<a href="<?php echo base_url();?>index.php/tarikhche4_controller/tarikhche4/" target="_blank"><img src="<?php echo base_url();?>/img/d5.jpg" alt="" class="tarikhche1 col-lg-2 col-sm-5 w-100"></a>
 			</div>
 		</section>
 		
-		<section id="<?php echo base_url();?>/img2" class="row justify-content-center">
+		<section id="img2" class="row justify-content-center">
 			<section id="content2" class="col-lg-12 justify-content-center">
 				<h1>محصولات</h1>
 				<h3>آخرین محصولات ما را در زیر مشاهده کنید:</h3>
-				<a href="pages/m1.html"><img src="<?php echo base_url();?>/img/m1.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
-				<a href="pages/m2.html"><img src="<?php echo base_url();?>/img/m2.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
-				<a href="pages/m3.html"><img src="<?php echo base_url();?>/img/m3.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
-				<a href="pages/m4.html"><img src="<?php echo base_url();?>/img/m4.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
-				<a href="pages/m5.html"><img src="<?php echo base_url();?>/img/m5.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
+				<a href="<?php echo base_url();?>index.php/dastband1_controller/dastband1/"><img src="<?php echo base_url();?>/img/dastband1.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
+				<a href="<?php echo base_url();?>index.php/necklace1_controller/necklace1/"><img src="<?php echo base_url();?>/img/necklace1.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
+				<a href="<?php echo base_url();?>index.php/earings1_controller/earings1/"><img src="<?php echo base_url();?>/img/earings1.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
+				<a href="<?php echo base_url();?>index.php/gardanband1_controller/gardanband1/"><img src="<?php echo base_url();?>/img/gardanband1.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
+				<a href="<?php echo base_url();?>index.php/nimset1_controller/nimset1/"><img src="<?php echo base_url();?>/img/nimset1.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
 				<div></div>
-				<a href="pages/mahsulat.html" id="a3">مشاهده همه محصولات</a>
+				<a href="<?php echo base_url();?>index.php/mahsulat_controller/mahsulat/" id="a3">مشاهده همه محصولات</a>
 			</section>
 		</section>
 		
@@ -166,28 +150,28 @@
 				<div class="col-lg-6 w-100 col-sm-12 smheight" id="ahdaf1">
 					<h1 class="smmargin">اهداف و خدمات</h1>
 					<p>جواهری  به پشتوانه چهار نسل اعتبار و بیش ازیک قرن تجربه در صنعت طلا و جواهر این گوهر گرانمایه ی هنر، بر آن است تا با طراحی و ساخت جواهرات مبهوت کننده حس ارزشمند زیبایی را در گذر از لحظه های زندگی برای شما به ارمغان آورد ،مفتخریم تا به همراه متخصصان و کارشناسان متبحر مجموعه خود آنچه را در تصور شماست معنای واقعیت بخشیم. فروشگاه عطایی در جهت رضایت مشتری و نیل به هدف مشتری مداری در تلاش است تا انواع خدمات را در صنعت طلا و جواهر ارایه دهد، از اینرو مشتریان محترم فروشگاه میتوانند از محصولات آماده در فروشگاه یا بخش فروش غیر حضوری سایت که به روش مشاوره تلفنی امکانپذیر است، بهره لازم را ببرند، اما مدعی هستیم تا کلیه سفارشات…</p>
-					<a href="pages/ahdaf.html" id="a5" class="amargin">ادامه مطلب</a>
+					<a href="<?php echo base_url();?>index.php/aboutus_1_controller/aboutus_1/" id="a5" class="amargin">ادامه مطلب</a>
 				</div>
 				<div class="w-100 col-lg-6 col-sm-12 smimg" id="ahdaf2"></div>
 		</section>
 		
 		<section class="row justify-content-center">
 			<section class="col-lg-12" id="akhbar">
-				<a href="pages/akhbar.html">
+				<a href="<?php echo base_url();?>index.php/news_controller/news/">
 					<h1>اخبار و مقالات</h1>
 				</a><br>
 				<p>آخرین اخبار و مقالات ما را دنبال کنید:</p>
 				<div class="media col-lg-5 mt-5 mb-5">
-					<a href="pages/almas.html"><img src="<?php echo base_url();?>/img/almas.jpg" alt="" class="ml-1 akhbarimg"></a>
+					<a href="<?php echo base_url();?>index.php/news2_controller/news2/"><img src="<?php echo base_url();?>/img/almas.jpg" alt="" class="ml-1 akhbarimg"></a>
 					<div class="media-body mt-5">
-						<a href="pages/almas.html">الماس یکی از سنگ‌های قیمتی و یکی از آلوتروپهای <br>کربن است که در فشارهای بالا پایدار است…</a>
+						<a href="<?php echo base_url();?>index.php/news2_controller/news2/">الماس یکی از سنگ‌های قیمتی و یکی از آلوتروپهای <br>کربن است که در فشارهای بالا پایدار است…</a>
 					</div>
 				</div>
 
 				<div class="media col-lg-5 mt-5">
-					<a href="pages/sangemah.html"><img src="<?php echo base_url();?>/img/sangemah.jpg" alt="" class="ml-1 akhbarimg"></a>
+					<a href="<?php echo base_url();?>index.php/news1_controller/news1/"><img src="<?php echo base_url();?>/img/sangemah.jpg" alt="" class="ml-1 akhbarimg"></a>
 					<div class="media-body mt-5">
-						<a href="pages/sangemah.html">  هر سنگ با متولد ماه خاصی ارتباط بیشتر و <br>بهتری برقرار می‌کند و می‌تواند برای…</a>
+						<a href="<?php echo base_url();?>index.php/news1_controller/news1/">  هر سنگ با متولد ماه خاصی ارتباط بیشتر و <br>بهتری برقرار می‌کند و می‌تواند برای…</a>
 					</div>
 				</div>
 			</section>
@@ -197,7 +181,7 @@
 			<div id="tamas" class="col-lg-5">
 				<h1>برای تماس با جواهری </h1>
 				<h3>از طریق لینک زیر اقدام کنید.</h3>
-				<a href="pages/tamas.html" id="a4">تماس با ما</a>
+				<a href="<?php echo base_url();?>index.php/contactus_controller/contactus/" id="a4">تماس با ما</a>
 			</div>
 		</section>
 		
