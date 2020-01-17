@@ -113,7 +113,7 @@
 		
 		<a href="<?php echo base_url();?>index.php/earring1_controller/earring1/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/earings1.jpg" alt="گوشواره" class="part2img"></a>
 		<a href="<?php echo base_url();?>index.php/necklace1_controller/necklace1/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/necklace1.jpg" alt="گوشواره" class="part2img"></a>
-		<a href="<?php echo base_url();?>index.php/ring1_controller/ring1/"  target="_blank"  ><img src ="img/ring1.jpg" alt="گوشواره" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/ring1_controller/ring1/"  target="_blank"  ><img src ="<?php echo base_url();?>img/ring1.jpg" alt="گوشواره" class="part2img"></a>
 		<a href="<?php echo base_url();?>index.php/gardanband1_controller/gardanband1/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/gardanband1.jpg" alt="گوشواره" class="part2img"></a>
 		<a href="<?php echo base_url();?>index.php/nimset1_controller/nimset1/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/nimset1.jpg" alt="گوشواره" class="part2img"></a>
 		<a href="<?php echo base_url();?>index.php/dastband1_controller/dastband1/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/dastband1.jpg" alt="گوشواره" class="part2img"></a>
