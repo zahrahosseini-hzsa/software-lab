@@ -90,7 +90,7 @@
 		
 		</section>
 		<section id="part2left">
-			<img src="<?php echo base_url();?>img/dastband5.jpg" data-zoom-image="<?php echo base_url();?>img/dastband5.jpg" alt="pic" class="zoom z_img img-size">
+			<img src="<?php echo base_url();?>/img/dastband5.jpg" data-zoom-image="<?php echo base_url();?>/img/dastband5.jpg" alt="pic" class="zoom z_img img-size">
 		</section>
 		
 		<form action="" method="post" class="col-lg-5 nazar">
@@ -117,11 +117,11 @@
 		<div class="container-fluid fpart">
 			<p class="footerp"> تمامی حقوق محفوظ است.</p>
 			
-			<a href="https://www.instagram.com/Ataeijewelry/" class="icon" target="_blank" data-title="Instagram" data-toggle="tooltip" title="Instagram"><img src="<?php echo base_url();?>img/1.png" alt="instagram" title="Ataei Jewlery Shop Instagram"></a>
+			<a href="https://www.instagram.com/Ataeijewelry/" class="icon" target="_blank" data-title="Instagram" data-toggle="tooltip" title="Instagram"><img src="<?php echo base_url();?>/img/1.png" alt="instagram" title="Ataei Jewlery Shop Instagram"></a>
 					
-			<a href="Http://t.me/Ataeijewelry/" class="icon" target="_blank" data-title="Telegram" data-toggle="tooltip" title="Telegram"><img src="<?php echo base_url();?>img/3.png" alt="telegram" title="Ataei Jewlery Shop Telegram"></a>
+			<a href="Http://t.me/Ataeijewelry/" class="icon" target="_blank" data-title="Telegram" data-toggle="tooltip" title="Telegram"><img src="<?php echo base_url();?>/img/3.png" alt="telegram" title="Ataei Jewlery Shop Telegram"></a>
 			
-			<a href="http://ataeigallery.ir/index.php?do=static&amp;page=contactus" class="icon"  target="_blank" data-title="facebook" data-toggle="tooltip" title="fb"><img src="<?php echo base_url();?>img/2.png" alt="email" title="Ataei Jewlery Shop facebook"></a>	
+			<a href="http://ataeigallery.ir/index.php?do=static&amp;page=contactus" class="icon"  target="_blank" data-title="facebook" data-toggle="tooltip" title="fb"><img src="<?php echo base_url();?>/img/2.png" alt="email" title="Ataei Jewlery Shop facebook"></a>	
 		
 		</div>
 	</footer>
