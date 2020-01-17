@@ -83,7 +83,7 @@
 		<a href="<?php echo base_url();?>index.php/dastband1_controller/dastband1/"  target="_blank"  ><img src ="<?php echo base_url();?>img/dastband1.jpg" alt="دستبند" class="part2img"></a>
 		<a href="<?php echo base_url();?>index.php/dastband2_controller/dastband2/"  target="_blank"  ><img src ="<?php echo base_url();?>img/dastband2.jpg" alt="دستبند" class="part2img"></a>
 		<a href="<?php echo base_url();?>index.php/dastband3_controller/dastband3/"  target="_blank"  ><img src ="<?php echo base_url();?>img/dastband3.jpg" alt="دستبند" class="part2img"></a>
-		<a href="dastband4.html"  target="_blank"  ><img src ="<?php echo base_url();?>img/dastband4.jpg" alt="دستبند" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/dastband4_controller/dastband4/"  target="_blank"  ><img src ="<?php echo base_url();?>img/dastband4.jpg" alt="دستبند" class="part2img"></a>
 		<a href="<?php echo base_url();?>index.php/dastband5_controller/dastband5/"  target="_blank"  ><img src ="<?php echo base_url();?>img/dastband5.jpg" alt="دستبند" class="part2img"></a>
 		<a href="<?php echo base_url();?>index.php/dastband6_controller/dastband6/"  target="_blank"  ><img src ="<?php echo base_url();?>img/dastband6.jpg" alt="دستبند" class="part2img"></a>
 	</div>
