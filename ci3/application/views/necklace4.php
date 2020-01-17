@@ -2,38 +2,26 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>اهداف وخدمات فروشگاه</title>
+<title>گوشواره</title>
+	<script src="<?php echo base_url();?>js/jquery-min.js"></script>
+		
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap-reboot.css">
 	
-	<link rel="stylesheet" href="<?php echo base_url();?>css/style_aboutus_1.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>css/style_allring.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/font-nastaligh.css">
 	
-	<script src="<?php echo base_url();?>js/jquery-min.js"></script>
 	<script src="<?php echo base_url();?>js/jquery-3.4.1.js"></script>
+	
+	<script src="<?php echo base_url();?>js/jquery.elevatezoom.js"></script>
 	<script src="<?php echo base_url();?>js/popper.min.js"></script>
 	<script src="<?php echo base_url();?>js/bootstrap.js"></script>
 	<script src="<?php echo base_url();?>js/script.js"></script>
-	
-	<script src="<?php echo base_url();?>js/jqFancyTransitions.1.8.min.js"></script>
-	
-    	<script>
-		$(document).ready(function(e) {
-            $("#gallary").jqFancyTransitions({
-				effect:"wave",
-				width:400,
-				height:400,
-				navigation:true
-					
-			});
-        });
-	</script>
-	
-	
+
 </head>
 
-<body data-spy="scroll" data-target="#menu1">
-
+<body>
+	
 	<div class="container-fluid">
 		<div class="row">
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="menu1">
@@ -47,7 +35,7 @@
 							<a href="<?php echo base_url();?>index.php/index_controller/index/" class="nav-link active">صفحه اصلی</a>
 						</li>
 						<li class="nav-item dropdown">
-			  				<a href="<?php echo base_url();?>index.php/mahsulat_controller/mahsulat/" class="nav-link      dropdown-toggle" data-toggle="dropdown">محصولات</a>
+							<a href="<?php echo base_url();?>index.php/mahsulat_controller/mahsulat/" class="nav-link dropdown-toggle" data-toggle="dropdown">محصولات</a>
 							<div class="dropdown-menu bg-dark">
       							<a class="dropdown-item" href="<?php echo base_url();?>index.php/ring_controller/ring/">انگشتر</a>
       							<a class="dropdown-item" href="<?php echo base_url();?>index.php/earring_controller/earring/">گوشواره</a>
@@ -83,6 +71,7 @@
 			</nav>
 		</div>
 	</div>
+	
 	
 	
 		<div class="container-fluid" id="part1">
