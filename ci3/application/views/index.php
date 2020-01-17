@@ -49,7 +49,7 @@
 							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="<?php echo base_url();?>index.php/aboutus_2_controller/aboutus_2/">درباره ما</a>
     						<div class="dropdown-menu bg-dark">
       							<a class="dropdown-item" href="<?php echo base_url();?>index.php/aboutus_1_controller/aboutus_1/">اهداف و خدمات فروشگاه</a>
-      							<a class="dropdown-item " href="<?php echo base_url();?>index.php/aboutus_2_controller/aboutus_2/">جواهری عطایی به قلم تاریخ</a>
+      							<a class="dropdown-item " href="<?php echo base_url();?>index.php/aboutus_2_controller/aboutus_2/">جواهری به قلم تاریخ</a>
     						</div>
 						</li>
 						<li class="nav-item">
@@ -57,6 +57,10 @@
 						</li>
 						<li class="nav-item">
 							<a href="#login" class="nav-link" data-toggle="modal">ورود به حساب کاربری</a>
+						</li>
+					    <li class="nav-item">
+							<a href="<?php echo base_url();?>index.php/register_controller/register/"
+						   	class="nav-link">عضویت </a>
 						</li>
 					</ul>
 				</div>

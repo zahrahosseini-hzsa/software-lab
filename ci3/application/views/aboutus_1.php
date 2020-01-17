@@ -76,7 +76,7 @@
 						</li>
 						<li class="nav-item">
 						<a href="<?php echo base_url();?>index.php/register_controller/register/"
-						   class="nav-link" data-toggle="modal">عضویت </a>
+						   class="nav-link">عضویت </a>
 						</li>
 					</ul>
 				</div>

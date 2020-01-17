@@ -2,32 +2,17 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>اهداف وخدمات فروشگاه</title>
+<title>حساب کاربری</title>
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap-reboot.css">
 	
-	<link rel="stylesheet" href="<?php echo base_url();?>css/style_aboutus_1.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>css/style-etelaat-shakhsi.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/font-nastaligh.css">
 	
-	<script src="<?php echo base_url();?>js/jquery-min.js"></script>
 	<script src="<?php echo base_url();?>js/jquery-3.4.1.js"></script>
 	<script src="<?php echo base_url();?>js/popper.min.js"></script>
 	<script src="<?php echo base_url();?>js/bootstrap.js"></script>
 	<script src="<?php echo base_url();?>js/script.js"></script>
-	
-	<script src="<?php echo base_url();?>js/jqFancyTransitions.1.8.min.js"></script>
-	
-    	<script>
-		$(document).ready(function(e) {
-            $("#gallary").jqFancyTransitions({
-				effect:"wave",
-				width:400,
-				height:400,
-				navigation:true
-					
-			});
-        });
-	</script>
 	
 	
 </head>
@@ -65,7 +50,7 @@
 							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="<?php echo base_url();?>index.php/aboutus_2_controller/aboutus_2/">درباره ما</a>
     						<div class="dropdown-menu bg-dark">
       							<a class="dropdown-item" href="<?php echo base_url();?>index.php/aboutus_1_controller/aboutus_1/">اهداف و خدمات فروشگاه</a>
-      							<a class="dropdown-item " href="<?php echo base_url();?>index.php/aboutus_2_controller/aboutus_2/">جواهری عطایی به قلم تاریخ</a>
+      							<a class="dropdown-item " href="<?php echo base_url();?>index.php/aboutus_2_controller/aboutus_2/">جواهری به قلم تاریخ</a>
     						</div>
 						</li>
 						<li class="nav-item">
@@ -73,6 +58,10 @@
 						</li>
 						<li class="nav-item">
 							<a href="#login" class="nav-link" data-toggle="modal">ورود به حساب کاربری</a>
+						</li>
+						<li class="nav-item">
+							<a href="<?php echo base_url();?>index.php/register_controller/register/"
+						   	class="nav-link">عضویت </a>
 						</li>
 					</ul>
 				</div>

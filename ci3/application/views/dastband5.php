@@ -5,7 +5,7 @@
 <title>دستبند</title>
 	<script src="<?php echo base_url();?>js/jquery-min.js"></script>
 		
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap-reboot.css">
 	
 	<link rel="stylesheet" href="<?php echo base_url();?>css/style_allring.css">
@@ -64,7 +64,7 @@
 						</li>
 						<li class="nav-item">
 						<a href="<?php echo base_url();?>index.php/register_controller/register/"
-						   class="nav-link" data-toggle="modal">عضویت </a>
+						   class="nav-link">عضویت </a>
 						</li>
 					</ul>
 				</div>
