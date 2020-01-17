@@ -44,7 +44,7 @@
 				<div id="menu" class="collapse navbar-collapse col-lg-8 g">
 					<ul class="navbar navbar-nav">
 						<li class="nav-item">
-							<a href="index.php/index_controller/index/" class="nav-link active">صفحه اصلی</a>
+							<a href="<?php echo base_url();?>index.php/index_controller/index/" class="nav-link active">صفحه اصلی</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a href="<?php echo base_url();?>index.php/mahsulat_controller/mahsulat/" class="nav-link dropdown-toggle" data-toggle="dropdown">محصولات</a>
@@ -132,11 +132,11 @@
 		<section id="sec2">
 			<article id="article">
 				<div id="gallary">
-            	<img src="<?php echo base_url();?>img/d1.jpg" alt="1"/>
-            	<img src="<?php echo base_url();?>img/d2.jpg" alt="2"/>
-            	<img src="<?php echo base_url();?>img/d3.jpg" alt="3"/>
-            	<img src="<?php echo base_url();?>img/d4.jpg" alt="4"/>
-            	<img src="<?php echo base_url();?>img/d5.jpg" alt="5"/>
+            	<img src="<?php echo base_url();?>/img/d1.jpg" alt="1"/>
+            	<img src="<?php echo base_url();?>/img/d2.jpg" alt="2"/>
+            	<img src="<?php echo base_url();?>/img/d3.jpg" alt="3"/>
+            	<img src="<?php echo base_url();?>/img/d4.jpg" alt="4"/>
+            	<img src="<?php echo base_url();?>/img/d5.jpg" alt="5"/>
             
         		</div>
 		
