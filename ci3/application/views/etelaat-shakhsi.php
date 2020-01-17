@@ -2,32 +2,17 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>اهداف وخدمات فروشگاه</title>
+<title>حساب کاربری</title>
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap-reboot.css">
 	
-	<link rel="stylesheet" href="<?php echo base_url();?>css/style_aboutus_1.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>css/style-etelaat-shakhsi.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/font-nastaligh.css">
 	
-	<script src="<?php echo base_url();?>js/jquery-min.js"></script>
 	<script src="<?php echo base_url();?>js/jquery-3.4.1.js"></script>
 	<script src="<?php echo base_url();?>js/popper.min.js"></script>
 	<script src="<?php echo base_url();?>js/bootstrap.js"></script>
 	<script src="<?php echo base_url();?>js/script.js"></script>
-	
-	<script src="<?php echo base_url();?>js/jqFancyTransitions.1.8.min.js"></script>
-	
-    	<script>
-		$(document).ready(function(e) {
-            $("#gallary").jqFancyTransitions({
-				effect:"wave",
-				width:400,
-				height:400,
-				navigation:true
-					
-			});
-        });
-	</script>
 	
 	
 </head>
@@ -97,6 +82,10 @@
 		
 		<div class="col-lg-9 content justify-content-center d-flex">
 			<form action="" method="" class="col-lg-6">
+			
+			<label>نام کاربری</label><br>
+			<input type="text" class="input form-control"><br>
+			
 			<label>نام</label><br>
 			<input type="text" class="input form-control"><br>
 								
@@ -121,15 +110,6 @@
 			
 			<label>ایمیل</label><br>
 			<input type="email" class="input form-control"><br>
-			
-			<label>نام کاربری</label><br>
-			<input type="text" class="input form-control"><br>
-			
-			<label>شناسه کاربری</label><br>
-			<input type="password" class="input form-control"><br>
-			
-			<label>تکرار شناسه کاربری</label><br>
-			<input type="password" class="input form-control"><br>
 		</form>
 		</div>
 	</div>
