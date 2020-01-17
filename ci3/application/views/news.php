@@ -2,32 +2,17 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>اهداف وخدمات فروشگاه</title>
+<title>اخبار و مقالات</title>
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap-reboot.css">
 	
-	<link rel="stylesheet" href="<?php echo base_url();?>css/style_aboutus_1.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>css/style_news.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/font-nastaligh.css">
 	
-	<script src="<?php echo base_url();?>js/jquery-min.js"></script>
 	<script src="<?php echo base_url();?>js/jquery-3.4.1.js"></script>
 	<script src="<?php echo base_url();?>js/popper.min.js"></script>
 	<script src="<?php echo base_url();?>js/bootstrap.js"></script>
 	<script src="<?php echo base_url();?>js/script.js"></script>
-	
-	<script src="<?php echo base_url();?>js/jqFancyTransitions.1.8.min.js"></script>
-	
-    	<script>
-		$(document).ready(function(e) {
-            $("#gallary").jqFancyTransitions({
-				effect:"wave",
-				width:400,
-				height:400,
-				navigation:true
-					
-			});
-        });
-	</script>
 	
 	
 </head>
@@ -119,13 +104,13 @@
 
 	<div class="container-fluid" id="part1">
 		<h3 class="h3">اخبارو مقالات</h3>
-		<h4 class="h4"><a class="h4a">  جواهری </a> )) اخبارو مقالات</h4>
+		<h4 class="h4"><a href="<?php echo base_url();?>index.php/index_controller/index/" class="h4a">  جواهری </a> )) اخبارو مقالات</h4>
 	</div>
 	
 	<div class="container-fluid" id="part2">
 		
 		<section class="part2section">
-			<img src="<?php echo base_url();?>/img/stone.jpg" alt="news" class="part2img"  />
+			<img src="<?php echo base_url();?>img/stone.jpg" alt="news" class="part2img"  />
 			<h4 class="part2h4">الماس</h4>
 			<hr>
 			<hr>
@@ -135,7 +120,7 @@
 		</section>
 		
 		<section class="part2section">
-			<img src="<?php echo base_url();?>/img/birthstone.png" alt="news" class="part2img" >
+			<img src="<?php echo base_url();?>img/birthstone.png" alt="news" class="part2img" >
 			<h4 class="part2h4">سنگ متولدین ماهها و خواص درمانی آنها</h4>
 			<hr>
 			<hr>
