@@ -29,7 +29,7 @@
 				<div id="menu" class="collapse navbar-collapse col-lg-8 g">
 					<ul class="navbar navbar-nav">
 						<li class="nav-item">
-							<a href="index.php/index_controller/index/" class="nav-link active">صفحه اصلی</a>
+							<a href="<?php echo base_url();?>index.php/index_controller/index/" class="nav-link active">صفحه اصلی</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a href="<?php echo base_url();?>index.php/mahsulat_controller/mahsulat/" class="nav-link dropdown-toggle" data-toggle="dropdown">محصولات</a>
@@ -93,11 +93,11 @@
 		<div class="container-fluid fpart">
 			<p class="footerp"> تمامی حقوق محفوظ است.</p>
 			
-			<a href="https://www.instagram.com/Ataeijewelry/" class="icon" target="_blank" data-title="Instagram" data-toggle="tooltip" title="Instagram"><img src="<?php echo base_url();?>img/1.png" alt="instagram" title="Ataei Jewlery Shop Instagram"></a>
+			<a href="https://www.instagram.com/Ataeijewelry/" class="icon" target="_blank" data-title="Instagram" data-toggle="tooltip" title="Instagram"><img src="<?php echo base_url();?>/img/1.png" alt="instagram" title="Ataei Jewlery Shop Instagram"></a>
 					
-			<a href="Http://t.me/Ataeijewelry/" class="icon" target="_blank" data-title="Telegram" data-toggle="tooltip" title="Telegram"><img src="<?php echo base_url();?>img/3.png" alt="telegram" title="Ataei Jewlery Shop Telegram"></a>
+			<a href="Http://t.me/Ataeijewelry/" class="icon" target="_blank" data-title="Telegram" data-toggle="tooltip" title="Telegram"><img src="<?php echo base_url();?>/img/3.png" alt="telegram" title="Ataei Jewlery Shop Telegram"></a>
 			
-			<a href="http://ataeigallery.ir/index.php?do=static&amp;page=contactus" class="icon"  target="_blank" data-title="facebook" data-toggle="tooltip" title="fb"><img src="<?php echo base_url();?>img/2.png" alt="email" title="Ataei Jewlery Shop facebook"></a>	
+			<a href="http://ataeigallery.ir/index.php?do=static&amp;page=contactus" class="icon"  target="_blank" data-title="facebook" data-toggle="tooltip" title="fb"><img src="<?php echo base_url();?>/img/2.png" alt="email" title="Ataei Jewlery Shop facebook"></a>	
 		
 		</div>
 	</footer>
