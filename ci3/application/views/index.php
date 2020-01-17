@@ -138,7 +138,7 @@
 				<h3>آخرین محصولات ما را در زیر مشاهده کنید:</h3>
 				<a href="<?php echo base_url();?>index.php/dastband1_controller/dastband1/"><img src="<?php echo base_url();?>/img/dastband1.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
 				<a href="<?php echo base_url();?>index.php/necklace1_controller/necklace1/"><img src="<?php echo base_url();?>/img/necklace1.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
-				<a href="<?php echo base_url();?>index.php/earings1_controller/earings1/"><img src="<?php echo base_url();?>/img/earings1.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
+				<a href="<?php echo base_url();?>index.php/earring1_controller/earring1/"><img src="<?php echo base_url();?>/img/earings1.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
 				<a href="<?php echo base_url();?>index.php/gardanband1_controller/gardanband1/"><img src="<?php echo base_url();?>/img/gardanband1.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
 				<a href="<?php echo base_url();?>index.php/nimset1_controller/nimset1/"><img src="<?php echo base_url();?>/img/nimset1.jpg" alt="" class="col-lg-2 col-sm-5 mahsulat w-100"></a>
 				<div></div>
