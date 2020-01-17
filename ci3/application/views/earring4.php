@@ -62,6 +62,10 @@
 						<li class="nav-item">
 							<a href="#login" class="nav-link" data-toggle="modal">ورود به حساب کاربری</a>
 						</li>
+						<li class="nav-item">
+						<a href="<?php echo base_url();?>index.php/register_controller/register/"
+						   class="nav-link" data-toggle="modal">عضویت </a>
+						</li>
 					</ul>
 				</div>
 				<a href="<?php echo base_url();?>index.php/index_controller/index/" class="navbar-brand col-lg-4">
