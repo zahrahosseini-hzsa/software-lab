@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>نیم ست و سرویس</title>
+<title>گوشواره</title>
+	
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap-reboot.css">
 	
@@ -14,11 +15,10 @@
 	<script src="<?php echo base_url();?>js/bootstrap.js"></script>
 	<script src="<?php echo base_url();?>js/script.js"></script>
 	
-	
 </head>
 
-<body data-spy="scroll" data-target="#menu1">
-
+<body data-spy="scroll" data-target="#menu1" >
+	
 	<div class="container-fluid">
 		<div class="row">
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="menu1">
@@ -32,7 +32,7 @@
 							<a href="<?php echo base_url();?>index.php/index_controller/index/" class="nav-link active">صفحه اصلی</a>
 						</li>
 						<li class="nav-item dropdown">
-			  				<a href="<?php echo base_url();?>index.php/mahsulat_controller/mahsulat/" class="nav-link      dropdown-toggle" data-toggle="dropdown">محصولات</a>
+							<a href="<?php echo base_url();?>index.php/mahsulat_controller/mahsulat/" class="nav-link dropdown-toggle" data-toggle="dropdown">محصولات</a>
 							<div class="dropdown-menu bg-dark">
       							<a class="dropdown-item" href="<?php echo base_url();?>index.php/ring_controller/ring/">انگشتر</a>
       							<a class="dropdown-item" href="<?php echo base_url();?>index.php/earring_controller/earring/">گوشواره</a>
@@ -80,12 +80,12 @@
 		<h2 class="h2title">نیم ست و سرویس</h2>
 		<img src="<?php echo base_url();?>/img/hr.png" alt="hr" class="hr"><br/>
 		
-		<a href="index.php/nimset1_controller/nimset1/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/nimset1.jpg" alt="نیم ست و سرویس" class="part2img"></a>
-		<a href="index.php/nimset2_controller/nimset2/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/nimset2.jpg" alt="نیم ست و سرویس" class="part2img"></a>
-		<a href="index.php/nimset3_controller/nimset3/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/nimset3.jpg" alt="نیم ست و سرویس" class="part2img"></a>
-		<a href="index.php/nimset4_controller/nimset4/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/nimset4.jpg" alt="نیم ست و سرویس" class="part2img"></a>
-		<a href="index.php/nimset5_controller/nimset5/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/nimset5.jpg" alt="نیم ست و سرویس" class="part2img"></a>
-		<a href="index.php/nimset6_controller/nimset6/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/nimset6.jpg" alt="نیم ست و سرویس" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/nimset1_controller/nimset1/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/nimset1.jpg" alt="نیم ست و سرویس" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/nimset2_controller/nimset2/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/nimset2.jpg" alt="نیم ست و سرویس" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/nimset3_controller/nimset3/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/nimset3.jpg" alt="نیم ست و سرویس" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/nimset4_controller/nimset4/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/nimset4.jpg" alt="نیم ست و سرویس" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/nimset5_controller/nimset5/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/nimset5.jpg" alt="نیم ست و سرویس" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/nimset6_controller/nimset6/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/nimset6.jpg" alt="نیم ست و سرویس" class="part2img"></a>
 	</div>
 	
 	
