@@ -2,25 +2,38 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>اخبار و مقالات </title>
+<title>اهداف وخدمات فروشگاه</title>
+	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap-reboot.css">
 	
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/bootstrap-reboot.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>css/style_aboutus_1.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>css/font-nastaligh.css">
 	
-	<link rel="stylesheet" href="css/style_news1.css">
-	<link rel="stylesheet" href="css/font-nastaligh.css">
+	<script src="<?php echo base_url();?>js/jquery-min.js"></script>
+	<script src="<?php echo base_url();?>js/jquery-3.4.1.js"></script>
+	<script src="<?php echo base_url();?>js/popper.min.js"></script>
+	<script src="<?php echo base_url();?>js/bootstrap.js"></script>
+	<script src="<?php echo base_url();?>js/script.js"></script>
 	
-	<script src="js/jquery-3.4.1.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/script.js"></script>
-
+	<script src="<?php echo base_url();?>js/jqFancyTransitions.1.8.min.js"></script>
+	
+    	<script>
+		$(document).ready(function(e) {
+            $("#gallary").jqFancyTransitions({
+				effect:"wave",
+				width:400,
+				height:400,
+				navigation:true
+					
+			});
+        });
+	</script>
+	
+	
 </head>
-	
-	
 
-<body data-spy="scroll" data-target="#menu1"  >
-	
+<body data-spy="scroll" data-target="#menu1">
+
 	<div class="container-fluid">
 		<div class="row">
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="menu1">
@@ -31,23 +44,32 @@
 				<div id="menu" class="collapse navbar-collapse col-lg-8 g">
 					<ul class="navbar navbar-nav">
 						<li class="nav-item">
-							<a href="index.html" class="nav-link active">صفحه اصلی</a>
-						</li>
-						<li class="nav-item">
-							<a href="mahsulat.html" class="nav-link">محصولات</a>
-						</li>
-						<li class="nav-item">
-							<a href="news.html" class="nav-link">اخبار و مقالات</a>
+							<a href="index.php/index_controller/index/" class="nav-link active">صفحه اصلی</a>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="aboutus_2.html">درباره ما</a>
-    						<div class="dropdown-menu bg-dark">
-      							<a class="dropdown-item" href="aboutus_1.html">اهداف و خدمات فروشگاه</a>
-      							<a class="dropdown-item " href="aboutus_2.html">جواهری  به قلم تاریخ</a>
+			  				<a href="<?php echo base_url();?>index.php/mahsulat_controller/mahsulat/" class="nav-link      dropdown-toggle" data-toggle="dropdown">محصولات</a>
+							<div class="dropdown-menu bg-dark">
+      							<a class="dropdown-item" href="<?php echo base_url();?>index.php/ring_controller/ring/">انگشتر</a>
+      							<a class="dropdown-item" href="<?php echo base_url();?>index.php/earring_controller/earring/">گوشواره</a>
+								<a class="dropdown-item" href="<?php echo base_url();?>index.php/necklace_controller/necklace/">آویز</a>
+								<a class="dropdown-item" href="<?php echo base_url();?>index.php/gardanband_controller/gardanband/">گردنبند</a>
+								<a class="dropdown-item" href="<?php echo base_url();?>index.php/dastband_controller/dastband/">دستبند</a>
+								<a class="dropdown-item" href="<?php echo base_url();?>index.php/nimset_controller/nimset/">نیم ست و سرویس</a>
+								<a class="dropdown-item" href="<?php echo base_url();?>index.php/mahsulat_controller/mahsulat/">محصولات</a>
     						</div>
 						</li>
 						<li class="nav-item">
-							<a href="contactus.html" class="nav-link">تماس با ما</a>
+							<a href="<?php echo base_url();?>index.php/news_controller/news/" class="nav-link">اخبار و مقالات</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="<?php echo base_url();?>index.php/aboutus_2_controller/aboutus_2/">درباره ما</a>
+    						<div class="dropdown-menu bg-dark">
+      							<a class="dropdown-item" href="<?php echo base_url();?>index.php/aboutus_1_controller/aboutus_1/">اهداف و خدمات فروشگاه</a>
+      							<a class="dropdown-item " href="<?php echo base_url();?>index.php/aboutus_2_controller/aboutus_2/">جواهری عطایی به قلم تاریخ</a>
+    						</div>
+						</li>
+						<li class="nav-item">
+							<a href="<?php echo base_url();?>index.php/contactus_controller/contactus/" class="nav-link">تماس با ما</a>
 						</li>
 						<li class="nav-item">
 							<a href="#login" class="nav-link" data-toggle="modal">ورود به حساب کاربری</a>
@@ -55,8 +77,8 @@
 					</ul>
 				</div>
 				
-				<a href="index.html" class="navbar-brand col-lg-4">
-					<img src="img/logo.png" alt="logo">
+				<a href="<?php echo base_url();?>index.php/index_controller/index/" class="navbar-brand col-lg-4">
+					<img src="<?php echo base_url();?>/img/logo.png" alt="logo">
 				</a>
 			</nav>
 		</div>
@@ -102,7 +124,7 @@
 	
 	<div class="container-fluid" id="part2">
 		<h4 class="part2h4">سنگ متولدین ماهها و خواص درمانی آنها</h4>
-		<img src="img/birthstone.png" alt="pic" class="part2img">
+		<img src="<?php echo base_url();?>/img/birthstone.png" alt="pic" class="part2img">
 		<p class="part2p">هر سنگ با متولد ماه خاصی ارتباط بیشتر و بهتری برقرار می‌کند و می‌تواند برای درمان بیماریها یا متعادل کردن قوای روحی و دماغی او مثمر ثمر باشد. به خاطر داشته باشید که برای متولدین هرماه، علاوه بر سنگ مخصوص خود او، ممکن است چندین سنگ دیگر هم مفید باشد. شما سنگ ها را چقدر می‌شناسید و درباره آنها چه اطلاعاتی دارید؟</p>
 		
 		
@@ -150,11 +172,11 @@
 		<div class="container-fluid fpart">
 			<p class="footerp"> تمامی حقوق محفوظ است.</p>
 			
-			<a href="https://www.instagram.com/Ataeijewelry/" class="icon" target="_blank" data-title="Instagram" data-toggle="tooltip" title="Instagram"><img src="img/1.png" alt="instagram" title="Ataei Jewlery Shop Instagram"></a>
+			<a href="https://www.instagram.com/Ataeijewelry/" class="icon" target="_blank" data-title="Instagram" data-toggle="tooltip" title="Instagram"><img src="<?php echo base_url();?>/img/1.png" alt="instagram" title="Ataei Jewlery Shop Instagram"></a>
 					
-			<a href="Http://t.me/Ataeijewelry/" class="icon" target="_blank" data-title="Telegram" data-toggle="tooltip" title="Telegram"><img src="img/3.png" alt="telegram" title="Ataei Jewlery Shop Telegram"></a>
+			<a href="Http://t.me/Ataeijewelry/" class="icon" target="_blank" data-title="Telegram" data-toggle="tooltip" title="Telegram"><img src="<?php echo base_url();?>/img/3.png" alt="telegram" title="Ataei Jewlery Shop Telegram"></a>
 			
-			<a href="http://ataeigallery.ir/index.php?do=static&amp;page=contactus" class="icon"  target="_blank" data-title="facebook" data-toggle="tooltip" title="fb"><img src="img/2.png" alt="email" title="Ataei Jewlery Shop facebook"></a>	
+			<a href="http://ataeigallery.ir/index.php?do=static&amp;page=contactus" class="icon"  target="_blank" data-title="facebook" data-toggle="tooltip" title="fb"><img src="<?php echo base_url();?>/img/2.png" alt="email" title="Ataei Jewlery Shop facebook"></a>	
 		
 		</div>
 	</footer>	
