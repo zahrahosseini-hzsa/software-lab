@@ -68,10 +68,43 @@
 			</nav>
 		</div>
 	</div>
+    
+    	<div class="modal fade" id="login">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title">فرم ورود</h4>
+							<button class="close" data-dismiss="modal" id="x"><span>&times;</span></button>
+						</div>
+						<div class="modal-body">
+							<div class="input-group my-4">
+								<div class="input-group-append">
+									<div class="input-group-text">نام کاربری </div>
+								</div>
+								<input type="text" class="form-control form-control-lg">
+								
+							</div>
+							<div class="input-group my-4">
+								<div class="input-group-append">
+									<div class="input-group-text">گذرواژه </div>
+								</div>
+								<input type="text" class="form-control form-control-lg">
+								
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-success" type="submit">
+								ورود
+							</button>
+						</div>
+					</div>
+				</div>
+				
+	</div>
 	
 	<div class="container-fluid" id="part1">
 		<h3 class="h3">گوشواره</h3>
-		<h4 class="h4"><a href="<?php echo base_url();?>index.php/index_controller/index/" class="h4a">  جواهری </a>  )) محصولات  ))   گوشواره  </h4>
+		<h4 class="h4"><a href="index.html" class="h4a">  جواهری </a>  )) محصولات  ))   گوشواره  </h4>
 	</div>
 	
 	
