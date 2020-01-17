@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>گوشواره</title>
+<title>گردنبند</title>
 	<script src="<?php echo base_url();?>js/jquery-min.js"></script>
 		
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap.css">
@@ -123,7 +123,7 @@
 		
 		</section>
 		<section id="part2left">
-			<img src="<?php echo base_url();?>/img/gardanband1.jpg" data-zoom-image="img/gardanband1.jpg" alt="pic" class="zoom z_img img-size">
+			<img src="<?php echo base_url();?>/img/gardanband1.jpg" data-zoom-image="<?php echo base_url();?>img/gardanband1.jpg" alt="pic" class="zoom z_img img-size">
 		</section>
 		
 		<form action="" method="post" class="col-lg-5 nazar">
