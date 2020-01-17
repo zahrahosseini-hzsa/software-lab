@@ -71,7 +71,7 @@
 	
 	<div class="container-fluid" id="part1">
 		<h3 class="h3">گوشواره</h3>
-		<h4 class="h4"><a href="index.html" class="h4a">  جواهری </a>  )) محصولات  ))   گوشواره  </h4>
+		<h4 class="h4"><a href="<?php echo base_url();?>index.php/index_controller/index/" class="h4a">  جواهری </a>  )) محصولات  ))   گوشواره  </h4>
 	</div>
 	
 	
