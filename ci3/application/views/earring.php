@@ -79,12 +79,12 @@
 		<h2 class="h2title">گوشواره</h2>
 		<img src="<?php echo base_url();?>img/hr.png" alt="hr" class="hr"><br/>
 		
-		<a href="earring1.html"  target="_blank"  ><img src ="<?php echo base_url();?>img/earings1.jpg" alt="گوشواره" class="part2img"></a>
-		<a href="earring2.html"  target="_blank"  ><img src ="<?php echo base_url();?>img/earings2.jpg" alt="گوشواره" class="part2img"></a>
-		<a href="earring3.html"  target="_blank"  ><img src ="<?php echo base_url();?>img/earings3.jpg" alt="گوشواره" class="part2img"></a>
-		<a href="earring4.html"  target="_blank"  ><img src ="<?php echo base_url();?>img/earings4.jpg" alt="گوشواره" class="part2img"></a>
-		<a href="earring5.html"  target="_blank"  ><img src ="<?php echo base_url();?>img/earings5.jpg" alt="گوشواره" class="part2img"></a>
-		<a href="earring6.html"  target="_blank"  ><img src ="<?php echo base_url();?>img/earings6.jpg" alt="گوشواره" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/earring1_controller/earring1/"  target="_blank"  ><img src ="<?php echo base_url();?>img/earings1.jpg" alt="گوشواره" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/earring2_controller/earring2/"  target="_blank"  ><img src ="<?php echo base_url();?>img/earings2.jpg" alt="گوشواره" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/earring3_controller/earring3/"  target="_blank"  ><img src ="<?php echo base_url();?>img/earings3.jpg" alt="گوشواره" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/earring4_controller/earring4/"  target="_blank"  ><img src ="<?php echo base_url();?>img/earings4.jpg" alt="گوشواره" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/earring5_controller/earring5/"  target="_blank"  ><img src ="<?php echo base_url();?>img/earings5.jpg" alt="گوشواره" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/earring6_controller/earring6/"  target="_blank"  ><img src ="<?php echo base_url();?>img/earings6.jpg" alt="گوشواره" class="part2img"></a>
 	</div>
 	
 	
