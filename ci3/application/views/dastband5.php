@@ -32,7 +32,7 @@
 				<div id="menu" class="collapse navbar-collapse col-lg-8 g">
 					<ul class="navbar navbar-nav">
 						<li class="nav-item">
-							<a href="index.php/index_controller/index/" class="nav-link active">صفحه اصلی</a>
+							<a href="<?php echo base_url();?>index.php/index_controller/index/" class="nav-link active">صفحه اصلی</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a href="<?php echo base_url();?>index.php/mahsulat_controller/mahsulat/" class="nav-link dropdown-toggle" data-toggle="dropdown">محصولات</a>
