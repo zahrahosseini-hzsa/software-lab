@@ -37,9 +37,9 @@
 
 <body>
 	<div id="container">
-		<a href="<?php echo base_url();?>index.php/tarikhche4_controller/tarikhche4/"><img src="<?php echo base_url();?>/images/arrow.png" alt="" id="left"></a>
-		<img src="<?php echo base_url();?>/images/tarikhche1.jpg" alt="" id="main">
-		<a href="<?php echo base_url();?>index.php/tarikhche2_controller/tarikhche2/"><img src="<?php echo base_url();?>/images/arrow1.png" alt="" id="right"></a>
+		<a href="<?php echo base_url();?>index.php/tarikhche4_controller/tarikhche4/"><img src="<?php echo base_url();?>/img/arrow.png" alt="" id="left"></a>
+		<img src="<?php echo base_url();?>/img/d1.jpg" alt="" id="main">
+		<a href="<?php echo base_url();?>index.php/tarikhche2_controller/tarikhche2/"><img src="<?php echo base_url();?>/img/arrow1.png" alt="" id="right"></a>
 	</div>
 </body>
 </html>
