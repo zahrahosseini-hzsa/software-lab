@@ -44,7 +44,7 @@
 				<div id="menu" class="collapse navbar-collapse col-lg-8 g">
 					<ul class="navbar navbar-nav">
 						<li class="nav-item">
-							<a href="index.php/index_controller/index/" class="nav-link active">صفحه اصلی</a>
+							<a href="<?php echo base_url();?>index.php/index_controller/index/" class="nav-link active">صفحه اصلی</a>
 						</li>
 						<li class="nav-item dropdown">
 			  				<a href="<?php echo base_url();?>index.php/mahsulat_controller/mahsulat/" class="nav-link      dropdown-toggle" data-toggle="dropdown">محصولات</a>
@@ -94,8 +94,8 @@
 		<h2 class="h2title">آویز</h2>
 		<img src="<?php echo base_url();?>/img/hr.png" alt="hr" class="hr"><br/>
 		
-		<a href="<?php echo base_url();?>index.php/index_controller/index/necklace1.html"  target="_blank" ><img src ="<?php echo base_url();?>/img/necklace1.jpg" alt="آویز" class="part2img"></a>
-		<a href="necklace2.html" target="_blank"  ><img src ="<?php echo base_url();?>/img/necklace2.jpg" alt="آویز" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/necklace1_controller/necklace1/"  target="_blank" ><img src ="<?php echo base_url();?>/img/necklace1.jpg" alt="آویز" class="part2img"></a>
+		<a href="<?php echo base_url();?>index.php/necklace2_controller/necklace2/" target="_blank"  ><img src ="<?php echo base_url();?>/img/necklace2.jpg" alt="آویز" class="part2img"></a>
 		<a href="<?php echo base_url();?>index.php/necklace3_controller/necklace3/"  target="_blank"  ><img src ="<?php echo base_url();?>/img/necklace3.jpg" alt="آویز" class="part2img"></a>
 		<a href="<?php echo base_url();?>index.php/necklace4_controller/necklace4/"  target="_blank"  ><img src ="<?php echo base_url();?>img/necklace4.jpg" alt="آویز" class="part2img"></a>
 		<a href="<?php echo base_url();?>index.php/necklace5_controller/necklace5/"  target="_blank"  ><img src ="<?php echo base_url();?>img/necklace5.jpg" alt="آویز" class="part2img"></a>
