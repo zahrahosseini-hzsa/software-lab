@@ -2,32 +2,17 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>اهداف وخدمات فروشگاه</title>
+<title>محصولات</title>
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/bootstrap-reboot.css">
 	
-	<link rel="stylesheet" href="<?php echo base_url();?>css/style_aboutus_1.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>css/style_gushvareh.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/font-nastaligh.css">
 	
-	<script src="<?php echo base_url();?>js/jquery-min.js"></script>
 	<script src="<?php echo base_url();?>js/jquery-3.4.1.js"></script>
 	<script src="<?php echo base_url();?>js/popper.min.js"></script>
 	<script src="<?php echo base_url();?>js/bootstrap.js"></script>
 	<script src="<?php echo base_url();?>js/script.js"></script>
-	
-	<script src="<?php echo base_url();?>js/jqFancyTransitions.1.8.min.js"></script>
-	
-    	<script>
-		$(document).ready(function(e) {
-            $("#gallary").jqFancyTransitions({
-				effect:"wave",
-				width:400,
-				height:400,
-				navigation:true
-					
-			});
-        });
-	</script>
 	
 	
 </head>
@@ -79,13 +64,6 @@
 				
 				<a href="<?php echo base_url();?>index.php/index_controller/index/" class="navbar-brand col-lg-4">
 					<img src="<?php echo base_url();?>/img/logo.png" alt="logo">
-				</a>
-			</nav>
-		</div>
-	</div>
-				
-				<a href="#" class="navbar-brand col-lg-4">
-					<img src="<?php echo base_url();?>/img/logo.png" alt="">
 				</a>
 			</nav>
 		</div>
