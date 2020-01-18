@@ -98,12 +98,13 @@
 			<img src="<?php echo base_url();?>/img/necklace1.jpg" data-zoom-image="<?php echo base_url();?>/img/necklace1.jpg" alt="pic" class="zoom z_img img-size">
 		</section>
 		
-		<form action="" method="post" class="col-lg-5 nazar">
-			<input type="text" class="input form-control" placeholder="نام کاربری یا ایمیل خود را وارد کنید"><br>
-			<textarea name="address" rows="3" class="form-control" placeholder="متن نظر"></textarea><br>
-			<input type="button"   class="button" value="ثبت نظر ">
+			<form action="<?php echo base_url();?>index.php/necklace1_controller/check_data/" method="post" class="col-lg-5 nazar">
+			<input type="text" class="input form-control" placeholder="نام کاربری "><br>
+			<textarea name="text" rows="3" class="form-control" placeholder="متن نظر"></textarea><br>
+			<input type="hidden" name="code" value="<a href='<?php echo base_url()?>index.php/necklace1_cntroller/necklace1/'> 1088 </a>">
+			<input type="hidden" name="img" value="<img src='<?php echo base_url();?>img/necklace1.jpg' width='50' />">
+			<input type="submit"   class="button" value="ثبت نظر ">
 		</form>
-	
 	</div>
 		<script>
 		$(".zoom").elevateZoom({
