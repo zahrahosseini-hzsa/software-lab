@@ -124,20 +124,23 @@
 		
 		<form class="form" action="">
 			<fieldset>
-				<label class="lable">نام و نام خانوادگی</label><br>
-				<input type="text" class="inputs"><br>
+				<label class="lable">نام </label><br>
+				<input type="text" name="fname"class="inputs"><br>
+                
+                <label class="lable">  نام خانوادگی</label><br>
+				<input type="text" name="lname"class="inputs"><br>
 				
 				<label class="lable">آدرس ایمیل</label><br>
-				<input type="email" class="inputs"><br>
+				<input type="email" name="email" class="inputs"><br>
 				
 				<label class="lable space">تلفن</label><br>
-				<input type="text" class="inputs"><br>
+				<input type="text" name="phone" class="inputs"><br>
 				
 				<label class="lable space">موضوع</label><br>
-				<input type="text" class="inputs"><br>
+				<input type="text" name="subject" class="inputs"><br>
 				
 				<label class="lable space">متن پیام</label><br>
-				<textarea class="inputs"></textarea><br>
+				<textarea name="text" class="inputs"></textarea><br>
 				
 				<input type="submit" value="ارسال" class="submit">
 			
