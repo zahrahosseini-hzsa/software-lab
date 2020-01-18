@@ -122,10 +122,10 @@
 			<p >ایمیل: ataeijewelry@yahoo.com</p>
 		</section>
 		
-		<form class="form" action="">
+		<form class="form" method="post" action="<?php echo base_url()?>index.php/contactus_controller/check_data/">
 			<fieldset>
 				<label class="lable">نام </label><br>
-				<input type="text" name="fname"class="inputs"><br>
+				<input type="text" name="fname"  class="inputs" ><br>
                 
                 <label class="lable">  نام خانوادگی</label><br>
 				<input type="text" name="lname"class="inputs"><br>
