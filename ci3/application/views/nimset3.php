@@ -129,11 +129,12 @@
 			<img src="<?php echo base_url();?>/img/nimset3.jpg" data-zoom-image="<?php echo base_url();?>/img/nimset3.jpg" alt="pic" class="zoom z_img img-size">
 		</section>
 		
-		<form action="<?php echo base_url();?>index.php/nimset3_controller/check_data/" method="post" class="col-lg-5 nazar">
-			<input type="text" class="input form-control" placeholder="نام کاربری "><br>
+		<form action="<?php echo base_url();?>index.php/dastband1_controller/check_data/" method="post" class="col-lg-5 nazar">
+			<input type="text" name="user_name" class="input form-control" placeholder="نام کاربری " ><br>
 			<textarea name="text" rows="3" class="form-control" placeholder="متن نظر"></textarea><br>
-			<input type="hidden" name="code" value="<a href='<?php echo base_url()?>index.php/nimset3_cntroller/nimset3/'> 1101 </a>">
-			<input type="hidden" name="img" value="<img src='<?php echo base_url();?>img/nimset3.jpg' width='50' />">
+            <input type="hidden" name="code"  
+            value="<a href='http://localhost:81/ci3/index.php/nimset3_controller/nimset3/'> 1168 </a>" > 
+            <input type="hidden" name="img" value="<img src='http://localhost:81/ci3/img/nimset3.jpg' width='150'/>">
 			<input type="submit"   class="button" value="ثبت نظر ">
 		</form>
 	
