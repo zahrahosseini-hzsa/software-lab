@@ -72,6 +72,7 @@
 		</div>
 		
 		<div class="modal fade" id="login">
+			<form method="post" action="<?php echo base_url();?>index.php/session_controller/session/">
 				<div class="modal-dialog modal-dialog-centered">
 					<div class="modal-content">
 						<div class="modal-header">
@@ -83,14 +84,14 @@
 								<div class="input-group-append">
 									<div class="input-group-text">نام کاربری </div>
 								</div>
-								<input type="text" class="form-control form-control-lg">
+								<input type="text" class="form-control form-control-lg" name="username">
 								
 							</div>
 							<div class="input-group my-4">
 								<div class="input-group-append">
 									<div class="input-group-text">گذرواژه </div>
 								</div>
-								<input type="text" class="form-control form-control-lg">
+								<input type="text" class="form-control form-control-lg" name="pass">
 								
 							</div>
 						</div>
@@ -101,7 +102,7 @@
 						</div>
 					</div>
 				</div>
-				
+				</form>
 			</div>
 	
 		<section id="slider" class="smheight">
