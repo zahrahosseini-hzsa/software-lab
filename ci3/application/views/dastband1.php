@@ -136,7 +136,7 @@
 			<textarea name="text" rows="3" class="form-control" placeholder="متن نظر"></textarea><br>
             <input type="hidden" name="code"  
             value="<a href='<?php echo base_url()?>index.php/dastband1_controller/dastband1/'> 1168 </a>" > 
-            <input type="hidden" name="img" value="<img  src='<?php echo base_url();?>img/dastband1.jpg' width='50' />">
+            <input type="hidden" name="img" value="<img  src='<?php echo base_url();?>img/dastband1.jpg' width='150' />">
 			<input type="submit"   class="button" value="ثبت نظر ">
 		</form>
 	
