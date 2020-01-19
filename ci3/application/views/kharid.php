@@ -87,24 +87,20 @@
 		</div>
 		
 		<div class="col-lg-9 content justify-content-center d-flex">
-				<table border="2" id="list_kharid" style="width:100%" class="table table-bordered">
-    <tbody>
-      <tr>
-		<th>کد خرید</th>
-		  <td><?php echo $this->content[0]['id']; ?></td></tr>
-		<tr><th>کد محصول</th>
-			<td><?php echo $this->content[0]['item-id']; ?></td>
-	  </tr>
-	  <tr>
-		<th>قیمت</th>
-		  <td><?php echo $this->content[0]['price']; ?></td></tr>
-		<tr><th>عکس محصول </th>
-			<td><?php echo $this->content[0]['img']; ?></td></tr>
-		 <tr> <th>نام کاربری</th>
-			<td><?php echo $this->content[0]['username']; ?></td>
-	  </tr>	
-    </tbody>
-</table>
+				<?php	
+			$sql = "SELECT id,item-id,price,img,username FROM kharid";
+            $result = $conn->query($sql);
+			if ($result->num_rows > 0) {
+    echo "<table><tr><th>کد سفارش </th><th>کد محصول</th><th>قیمت</th><th>عکس محصول</th><th>نام کاربری</th></tr>";
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "<tr><td>".$row["id"]."</td><td>".$row["item-id"]."</td><td>".$row["price"]."</td><td>".$row["img"]."</td><td>".$row["username"]."</td></tr>";
+    }
+    echo "</table>";
+} else {
+    echo "0 results";
+}
+			?>
 		</div>
 	</div>
 	
