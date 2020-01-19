@@ -86,6 +86,22 @@
 		
 		<div class="col-lg-9 content justify-content-center d-flex">
 			
+		<?php	
+			$sql = "SELECT id, username, litem-id FROM nazarat";
+            $result = $conn->query($sql);
+			if ($result->num_rows > 0) {
+    echo "<table><tr><th>کد نظر</th><th>نام کاربری</th><th>کد محصول</th><th>نظر</th><th>عکس محصول</th></tr>";
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "<tr><td>".$row["id"]."</td><td>".$row["username"]."</td><td>".$row["item-id"]."</td><td>".$row["text"]."</td><td>".$row["img"]."</td></tr>";
+    }
+    echo "</table>";
+} else {
+    echo "0 results";
+}
+			?>
+			
+	
 		</div>
 	</div>
 	
