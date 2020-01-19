@@ -75,6 +75,8 @@
 	
 	<div class="container-fluid" id="part1">
 		<h2 class="h2title"><span>حساب کاربری</span> )) مشاهده خریدها</h2>
+		
+	
 	</div>
 	
 	<div class="row d-flex" id="part2">
@@ -85,7 +87,24 @@
 		</div>
 		
 		<div class="col-lg-9 content justify-content-center d-flex">
-			
+				<table border="2" id="list_kharid" style="width:100%" class="table table-bordered">
+    <tbody>
+      <tr>
+		<th>کد خرید</th>
+		  <td><?php echo $this->content[0]['id']; ?></td></tr>
+		<tr><th>کد محصول</th>
+			<td><?php echo $this->content[0]['item-id']; ?></td>
+	  </tr>
+	  <tr>
+		<th>قیمت</th>
+		  <td><?php echo $this->content[0]['price']; ?></td></tr>
+		<tr><th>عکس محصول </th>
+			<td><?php echo $this->content[0]['img']; ?></td></tr>
+		 <tr> <th>نام کاربری</th>
+			<td><?php echo $this->content[0]['username']; ?></td>
+	  </tr>	
+    </tbody>
+</table>
 		</div>
 	</div>
 	
