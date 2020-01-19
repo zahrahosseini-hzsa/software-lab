@@ -4,7 +4,7 @@ class kharid_model extends CI_Model {
 	
 		public function select_kharid()
 	{
-		$sql='select id,price,img from kharid';
+		$sql='select id,item_id,price,img from kharid';
 		
 		$query=$this->db->query($sql);
 		return $query->result_array();

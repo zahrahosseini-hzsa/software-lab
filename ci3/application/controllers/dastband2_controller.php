@@ -15,6 +15,13 @@ class dastband2_controller extends CI_Controller {
 		$this->dastband1_model->insert_dastband1($_POST);
 		
 	}
+	public function sefaresh()
+	{
+		
+		$this->load->model('sefaresh_mahsul_model');
+		$this->sefaresh_mahsul_model->sefaresh_mahsul($_POST);
+		
+	}
 	
 	
 }
