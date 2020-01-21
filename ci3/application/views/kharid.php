@@ -87,20 +87,30 @@
 		</div>
 		
 		<div class="col-lg-9 content justify-content-center d-flex">
-				<?php	
-			$sql = "SELECT id,item-id,price,img,username FROM kharid";
-            $result = $conn->query($sql);
-			if ($result->num_rows > 0) {
-    echo "<table><tr><th>کد سفارش </th><th>کد محصول</th><th>قیمت</th><th>عکس محصول</th><th>نام کاربری</th></tr>";
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "<tr><td>".$row["id"]."</td><td>".$row["item-id"]."</td><td>".$row["price"]."</td><td>".$row["img"]."</td><td>".$row["username"]."</td></tr>";
-    }
-    echo "</table>";
-} else {
-    echo "0 results";
-}
-			?>
+		<?php
+
+        echo	'<table width="100%" border="1" style="color:white;" >
+  <tr>
+    <td>id</td>
+    <td>item_id</td>
+    <td>price</td>
+    <td>img</td>
+  </tr>';
+  
+  $i=1;
+  foreach($info as $row){
+    echo '<tr>
+    <td>'.$i.'</td>
+    <td>'.$row['item_id'].'</td>
+    
+    <td>'.$row['price'].'</td>
+	<td>
+	<img src="'.base_url().'img/'.$row['img'].'" width="150" />
+	</td>
+  </tr>';
+  $i++;}
+  echo '</table>';
+  ?>
 		</div>
 	</div>
 	
