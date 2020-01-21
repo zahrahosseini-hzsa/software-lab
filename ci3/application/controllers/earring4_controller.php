@@ -11,8 +11,15 @@ class earring4_controller extends CI_Controller {
 		public function check_data()
 	{
 		
-		$this->load->model('dastband1_model');
-		$this->dastband1_model->insert_dastband1($_POST);
+		$this->load->model('earring4_model');
+		$this->earring4_model->insert_earring4($_POST);
+		
+	}
+	public function sefaresh()
+	{
+		
+		$this->load->model('sefaresh_mahsul_model');
+		$this->sefaresh_mahsul_model->sefaresh_mahsul($_POST);
 		
 	}
 }
