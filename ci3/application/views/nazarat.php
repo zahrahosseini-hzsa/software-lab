@@ -79,7 +79,7 @@
 	
 	<div class="row d-flex" id="part2">
 		<div class="col-lg-3 side-menu justify-content-center">
-			<a href="<?php echo base_url();?>index.php/etelaat_shakhsi_controller/etelaat-shakhsi/" class="btn">اطلاعات شخصی</a><br>
+			<a href="<?php echo base_url();?>index.php/etelaat_shakhsi_controller/etelaat_shakhsi/" class="btn">اطلاعات شخصی</a><br>
 			<a href="<?php echo base_url();?>index.php/kharid_controller/kharid/" class="btn">مشاهده خریدها</a><br>
 			<a href="<?php echo base_url();?>index.php/nazarat_controller/nazarat/" class="btn">مشاهده نظرات</a>
 		</div>
