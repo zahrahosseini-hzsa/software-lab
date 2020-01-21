@@ -76,40 +76,44 @@
 	</div>
 	
 	<div class="row justify-content-center" id ="part2">
-		<form action="" method="post" class="col-lg-5">
+			<form method="post" action="<?php echo base_url()?>index.php/register_controller/check_data/" class="col-lg-6">
+			
+			<label>نام کاربری</label><br>
+			<input type="text" name="username" class="input form-control"><br>
+			
 			<label>نام</label><br>
-			<input type="text" class="input form-control"><br>
+			<input type="text" name="fname" class="input form-control"><br>
 								
 			<label> نام خانوادگی </label><br>
-			<input type="text" class="input form-control"><br>
+			<input type="text" name="lname" class="input form-control"><br>
 				
 			<label>جنسیت</label><br>
 			زن<input type="radio" name="sex" checked value="female" class="form-check-inline ml-5">
 			مرد<input type="radio" name="sex" value="male" class="form-check-inline"><br>
 			
 			<label>شهر</label><br>
-			<input type="text" class="input form-control"><br>
+			<input type="text"  name="city" class="input form-control"><br>
 			
 			<label>آدرس</label><br>
-			<textarea name="address" id="" rows="3" class="form-control"></textarea><br>
+			<textarea name="address" id="address" rows="3" class="form-control"></textarea><br>
 			
 			<label>تلفن ثابت</label><br>
-			<input type="tel" placeholder="به همراه پیش شماره وارد کنید" class="input form-control"><br>
+			<input type="tel" name="phone-number" class="input form-control"><br>
 			
 			<label>تلفن همراه</label><br>
-			<input type="tel" class="input form-control"><br>
+			<input type="tel" name="mobile" class="input form-control"><br>
 			
 			<label>ایمیل</label><br>
-			<input type="email" class="input form-control"><br>
+			<input type="email" name="email" class="input form-control"><br>
 			
 			<label>نام کاربری</label><br>
-			<input type="text" class="input form-control"><br>
+			<input type="text" name="username" class="input form-control"><br>
 			
 			<label>شناسه کاربری</label><br>
-			<input type="password" class="input form-control"><br>
+			<input type="password" name="pass" class="input form-control"><br>
 			
 			<label>تکرار شناسه کاربری</label><br>
-			<input type="password" class="input form-control"><br>
+			<input type="password" name="pass_repeat" class="input form-control"><br>
 			
 			<input type="submit" class="btn btn-light" value="ثبت">
 		</form>
