@@ -165,8 +165,8 @@
             <input type="hidden" name="img" value="<img src='http://localhost:81/ci3/img/dastband1.jpg' width='150'">
 			<input type="submit"   class="button" value="ثبت نظر ">
 		</form>
-			<form action="<?php echo base_url();?>index.php/dastband2_controller/sefaresh/" method="post" id="form_sefaresh">
-				<input type="text" class="sefaresh" name="code" value="<a href='http://localhost:81/ci3/index.php/dastband1_controller/dastband1'>6759</a>">
+			<form action="<?php echo base_url();?>index.php/dastband1_controller/sefaresh/" method="post" id="form_sefaresh">
+				<input type="text" class="sefaresh" name="code" value="<a href='http://localhost:81/ci3/index.php/dastband1_controller/dastband1'>1168</a>">
 				<input type="text" class="sefaresh" name="price" value="1 میلیون">
 				<input type="text" class="sefaresh" name="img" value="<img src='http://localhost:81/ci3/img/dastband1.jpg'">
 				<input type="button" class="button" value="سفارش محصول " onClick="sefaresh()">

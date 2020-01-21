@@ -162,7 +162,7 @@
 			<input type="submit"   class="button" value="ثبت نظر ">
 		</form>
 		<form action="<?php echo base_url();?>index.php/earring4_controller/sefaresh/" method="post" id="form_sefaresh">
-				<input type="text" class="sefaresh" name="code" value="<a href='http://localhost:81/ci3/index.php/earring4_controller/earring4'>6666</a>">
+				<input type="text" class="sefaresh" name="code" value="<a href='http://localhost:81/ci3/index.php/earring4_controller/earring4'>1131</a>">
 				<input type="text" class="sefaresh" name="price" value="1 میلیون">
 				<input type="text" class="sefaresh" name="img" value="<img src='http://localhost:81/ci3/img/earring4.jpg'">
 				<input type="button" class="button" value="سفارش محصول " onClick="sefaresh()">

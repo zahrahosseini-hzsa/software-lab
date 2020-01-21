@@ -10,6 +10,11 @@
 	
 	<link rel="stylesheet" href="<?php echo base_url();?>css/style_allring.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/font-nastaligh.css">
+	<style>
+		.sefaresh{
+			visibility: hidden; 
+		}
+	</style>
 	
 	<script src="<?php echo base_url();?>js/jquery-3.4.1.js"></script>
 	
@@ -17,6 +22,26 @@
 	<script src="<?php echo base_url();?>js/popper.min.js"></script>
 	<script src="<?php echo base_url();?>js/bootstrap.js"></script>
 	<script src="<?php echo base_url();?>js/script.js"></script>
+		<script>
+		function sefaresh(){
+			var n=<?php echo $_SESSION['username'];?>;
+			if(n==null){
+				alert("لطفا ابتدا لاگین کنید");
+			}
+			
+			else{					
+				document.getElementById('form_sefaresh').submit();
+			}
+			
+		}
+		$(".zoom").elevateZoom({
+		zoomWindowFadeIn: 300,
+		zoomWindowFadeOut: 300,
+		lensFadeIn: 300,
+		lensFadeOut: 300,
+        scrollZoom : true
+								});
+	</script>
 
 </head>
 
@@ -91,8 +116,7 @@
 			<p class="part2p">Emerald-Pendant</p>
 			<p class="part2p">N:6774</p>
 			<p class="part2p">Ds:0.64 ct</p>
-			<input type="button"   class="button" value="سفارش محصول ">
-		
+	
 		</section>
 		<section id="part2left">
 			<img src="<?php echo base_url();?>/img/necklace6.jpg" data-zoom-image="<?php echo base_url();?>/img/necklace6.jpg" alt="pic" class="zoom z_img img-size">
@@ -106,6 +130,12 @@
             <input type="hidden" name="img" value="<img src='http://localhost:81/ci3/img/necklace6.jpg' width='150'/>">
 			<input type="submit"   class="button" value="ثبت نظر ">
 		</form>
+		<form action="<?php echo base_url();?>index.php/necklace6_controller/sefaresh/" method="post" id="form_sefaresh">
+				<input type="text" class="sefaresh" name="code" value="<a href='http://localhost:81/ci3/index.php/necklace6_controller/necklace6'>1129</a>">
+				<input type="text" class="sefaresh" name="price" value="1 میلیون">
+				<input type="text" class="sefaresh" name="img" value="<img src='http://localhost:81/ci3/img/necklace6.jpg'">
+				<input type="button" class="button" value="سفارش محصول " onClick="sefaresh()">
+			</form>
 	
 	</div>
 		<script>

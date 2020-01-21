@@ -164,7 +164,7 @@
 			<input type="submit"   class="button" value="ثبت نظر ">
 		</form>
 		<form action="<?php echo base_url();?>index.php/dastband4_controller/sefaresh/" method="post" id="form_sefaresh">
-				<input type="text" class="sefaresh" name="code" value="<a href='http://localhost:81/ci3/index.php/dastband4_controller/dastband4'>6759</a>">
+				<input type="text" class="sefaresh" name="code" value="<a href='http://localhost:81/ci3/index.php/dastband4_controller/dastband4'>1095</a>">
 				<input type="text" class="sefaresh" name="price" value="1 میلیون">
 				<input type="text" class="sefaresh" name="img" value="<img src='http://localhost:81/ci3/img/dastband4.jpg'">
 				<input type="button" class="button" value="سفارش محصول " onClick="sefaresh()">
