@@ -85,7 +85,7 @@
 		</div>
 		
 		<div class="col-lg-9 content justify-content-center d-flex">
-			<form action="" method="<?php echo base_url()?>index.php/etelaat_shakhsi_controller/check_data/" class="col-lg-6">
+			<form method="post" action="<?php echo base_url()?>index.php/etelaat_shakhsi_controller/check_data/" class="col-lg-6">
 			
 			<label>نام کاربری</label><br>
 			<input type="text" name="username" class="input form-control"><br>

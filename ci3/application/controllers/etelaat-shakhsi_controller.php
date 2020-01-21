@@ -4,7 +4,10 @@ class etelaat_shakhsi_controller extends CI_Controller {
 	
 		public function etelaat_shakhsi()
 	{
-		$this->load->view('etelaat-shakhsi.php');
+		
+		$this->load->model('etelaat_shakhsi');
+		$data['info']=$this->etelaat_shakhsi_model->select_etelaat-shakhsi();
+		$this->load->view('etelaat-shakhsi',$data);
 		
 	}
 			public function check_data()
