@@ -86,20 +86,30 @@
 		
 		<div class="col-lg-9 content justify-content-center d-flex">
 			
-		<?php	
-			$sql = "SELECT id, username, item-id ,text,img FROM nazarat";
-            $result = $conn->query($sql);
-			if ($result->num_rows > 0) {
-    echo "<table><tr><th>کد نظر</th><th>نام کاربری</th><th>کد محصول</th><th>نظر</th><th>عکس محصول</th></tr>";
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "<tr><td>".$row["id"]."</td><td>".$row["username"]."</td><td>".$row["item-id"]."</td><td>".$row["text"]."</td><td>".$row["img"]."</td></tr>";
-    }
-    echo "</table>";
-} else {
-    echo "0 results";
-}
-			?>
+					<?php
+
+        echo	'<table width="100%" border="1" style="color:white;" >
+  <tr>
+    <td>id</td>
+    <td>item_id</td>
+    <td>text</td>
+    <td>img</td>
+  </tr>';
+  
+  $i=1;
+  foreach($info as $row){
+    echo '<tr>
+    <td>'.$i.'</td>
+    <td>'.$row['item_id'].'</td>
+    
+    <td>'.$row['text'].'</td>
+	<td>
+	<img src="'.base_url().'img/'.$row['img'].'" width="150" />
+	</td>
+  </tr>';
+  $i++;}
+  echo '</table>';
+  ?>
 			
 	
 		</div>
