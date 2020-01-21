@@ -7,6 +7,12 @@ class etelaat_shakhsi_controller extends CI_Controller {
 		$this->load->view('etelaat-shakhsi.php');
 		
 	}
-	
+			public function check_data()
+	{
+		
+		$this->load->model('personal_information_model');
+		$this->personal_information_model->insert_personal($_POST);
+		
+	}
 	
 }

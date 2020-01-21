@@ -85,35 +85,35 @@
 		</div>
 		
 		<div class="col-lg-9 content justify-content-center d-flex">
-			<form action="" method="" class="col-lg-6">
+			<form action="" method="<?php echo base_url()?>index.php/etelaat_information_controller/check_data/" class="col-lg-6">
 			
 			<label>نام کاربری</label><br>
-			<input type="text" class="input form-control"><br>
+			<input type="text" name="username" class="input form-control"><br>
 			
 			<label>نام</label><br>
-			<input type="text" class="input form-control"><br>
+			<input type="text" name="fname" class="input form-control"><br>
 								
 			<label> نام خانوادگی </label><br>
-			<input type="text" class="input form-control"><br>
+			<input type="text" name="lname" class="input form-control"><br>
 				
 			<label>جنسیت</label><br>
 			زن<input type="radio" name="sex" checked value="female" class="form-check-inline ml-5">
 			مرد<input type="radio" name="sex" value="male" class="form-check-inline"><br>
 			
 			<label>شهر</label><br>
-			<input type="text" class="input form-control"><br>
+			<input type="text"  name="city" class="input form-control"><br>
 			
 			<label>آدرس</label><br>
-			<textarea name="address" id="" rows="3" class="form-control"></textarea><br>
+			<textarea name="address" id="address" rows="3" class="form-control"></textarea><br>
 			
 			<label>تلفن ثابت</label><br>
-			<input type="tel" class="input form-control"><br>
+			<input type="tel" name="phone-number" class="input form-control"><br>
 			
 			<label>تلفن همراه</label><br>
-			<input type="tel" class="input form-control"><br>
+			<input type="tel" name="mobile" class="input form-control"><br>
 			
 			<label>ایمیل</label><br>
-			<input type="email" class="input form-control"><br>
+			<input type="email" name="email" class="input form-control"><br>
 		</form>
 		</div>
 	</div>
